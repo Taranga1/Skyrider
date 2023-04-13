@@ -1,3 +1,40 @@
+{{-- @extends('layouts.admin_app')
+
+@section('content')
+    <div class="container-fluid px-4">
+        <div class="card-header">
+            <h4>View Results</h4>
+        </div>
+        <div class="card-body">
+            @if (session('message'))
+                <div class="alert alert-success">{{session('message')}}</div>
+            @endif
+
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <td>ID</td>
+                        <td>Symbol Number</td>
+                        <td>GPA</td>
+                        <td>Edit</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach ($results as $results)
+                        <tr>
+                            <td>{{$results->id}}</td>
+                            <td>{{$results->symbolnumber}}</td>
+                            <td>{{$results->gpa}}</td>
+                            <td><a href="{{ url('admin/user/'.$results->id)}}" class="btn btn-success">Edit</a></td>
+                        </tr>
+                    @endforeach
+                </tbody>
+            </table>
+        </div>
+    </div>
+@endsection --}}
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -15,69 +52,6 @@
     <link href="../home_assets/css/light-bootstrap-dashboard.css?v=2.0.0 " rel="stylesheet" />
     <link href="../home_assets/css/demo.css" rel="stylesheet" />
     <style>
-        .slowFade {
-            display: flex;
-            align-items: flex-start;
-            background: #fff;
-            height: 100vh;
-            overflow: hidden;
-            position: relative;
-        }
-
-        .slowFade .slide img {
-            position: absolute;
-            min-width: 100%;
-            height: 90%;
-            height: auto;
-            background: #000;
-            -webkit-backface-visibility: hidden;
-            backface-visibility: hidden;
-            opacity: 0;
-            transform: scale(1.5) rotate(15deg);
-            -webkit-animation: slowFade 32s infinite;
-            animation: slowFade 32s infinite;
-        }
-
-        .slowFade .slide:nth-child(3) img {
-            -webkit-animation-delay: 8s;
-            animation-delay: 8s;
-        }
-
-        .slowFade .slide:nth-child(2) img {
-            -webkit-animation-delay: 16s;
-            animation-delay: 16s;
-        }
-
-        .slowFade .slide:nth-child(1) img {
-            -webkit-animation-delay: 24s;
-            animation-delay: 24s;
-        }
-
-        @keyframes slowFade {
-            25% {
-                opacity: 1;
-                transform: scale(1) rotate(0);
-            }
-
-            40% {
-                opacity: 0;
-            }
-        }
-
-        @-webkit-keyframes slowFade {
-            25% {
-                opacity: 1;
-                transform: scale(1) rotate(0);
-            }
-
-            40% {
-                opacity: 0;
-            }
-        }
-
-
-
-
         @import url('https://fonts.googleapis.com/css?family=Heebo:800');
 
         * {
@@ -342,19 +316,19 @@
                         </a>
                     </li>
                     <li>
-                        <a class="nav-link" href="/results">
+                        <a class="nav-link" href="/result/display">
                             <i class="nc-icon nc-circle-09"></i>
                             <p>Student Results</p>
                         </a>
                     </li>
                     <li>
-                        <a class="nav-link" href="/admission/create">
+                        <a class="nav-link" href="./table.html">
                             <i class="nc-icon nc-notes"></i>
                             <p>Admissions</p>
                         </a>
                     </li>
                     <li>
-                        <a class="nav-link" href="gallery">
+                        <a class="nav-link" href="./typography.html">
                             <i class="nc-icon nc-paper-2"></i>
                             <p>Gallery</p>
                         </a>
@@ -374,7 +348,7 @@
                     <li>
                         <a class="nav-link" href="./notifications.html">
                             <i class="nc-icon nc-bell-55"></i>
-                            <p>Notice</p>
+                            <p>Notifications</p>
                         </a>
                     </li>
                     <li class="nav-item active active-pro">
@@ -398,7 +372,7 @@
             <!-- Navbar -->
             <nav class="navbar navbar-expand-lg " color-on-scroll="500">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href=""> Gallery </a>
+                    <a class="navbar-brand" href=""> Result </a>
                     <button href="" class="navbar-toggler navbar-toggler-right" type="button"
                         data-toggle="collapse" aria-controls="navigation-index" aria-expanded="false"
                         aria-label="Toggle navigation">
@@ -418,31 +392,40 @@
 
 
 
-
             {{-- HTML BODY STARTS HERE --}}
 
 
 
-            <div class="slides slowFade">
-                <div class="slide">
-                    <img src="https://imgs.search.brave.com/lWqbDW1WwIMbVH0GrhbeHnsp4D1NzTwkzEaUqfWfzEs/rs:fit:1090:630:1/g:ce/aHR0cHM6Ly93d3cu/c2t5cmlkZXIuZWR1/Lm5wL21lZGlhL2dh/bGxlcnlfaW1hZ2Uv/UHJpbWFyeV9CdWls/ZGluZ19CbG9ja19B/LnBuZw"
-                        alt="img" />
+            <div class="container-fluid px-4">
+                <div class="card-header">
                 </div>
-                <div class="slide">
-                    <img src="https://imgs.search.brave.com/fp5MTZ6qWbpCPs8GicALzRHck4_T2fywFZPakxYEyd8/rs:fit:960:720:1/g:ce/aHR0cHM6Ly93d3cu/c2t5cmlkZXIuZWR1/Lm5wL3N0YXRpYy9p/bWcvc2s0LmpwZw"
-                        alt="img" />
-                </div>
-                <div class="slide">
-                    <img src="https://imgs.search.brave.com/3W4-sFdYytD523qSBC72BZF848LKQsVN6HcvlJq9Hys/rs:fit:1200:955:1/g:ce/aHR0cHM6Ly93d3cu/c2t5cmlkZXIuZWR1/Lm5wL21lZGlhL3Ns/aWRlcl9pbWcvc2sx/MF8xLmpwZw"
-                        alt="img" />
-                </div>
-                <div class="slide">
-                    <img src="https://imgs.search.brave.com/ZqwK_AeV7YY9gOV22gMCh50WsJtjAIvEK3fEwrJTsj8/rs:fit:1200:720:1/g:ce/aHR0cHM6Ly9pLnl0/aW1nLmNvbS92aS9G/NmRpSGhWXzI3VS9t/YXhyZXNkZWZhdWx0/LmpwZw"
-                        alt="img" />
-                </div>
-                <div class="slide">
-                    <img src="https://imgs.search.brave.com/b-2jSSmPGpPxMbdQT45Hw2Hq4TOa719Jp9T6Cb0st1w/rs:fit:1090:712:1/g:ce/aHR0cHM6Ly93d3cu/c2t5cmlkZXIuZWR1/Lm5wL21lZGlhL2dh/bGxlcnlfaW1hZ2Uv/RXh0cmFfQWN0aXZp/dGllc18yLnBuZw"
-                        alt="img" />
+                <div class="card-body">
+                    @if (session('message'))
+                        <div class="alert alert-success">{{ session('message') }}</div>
+                    @endif
+
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <td>ID</td>
+                                <td>Symbol Number</td>
+                                <td>GPA</td>
+                                <td>Edit</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach ($result as $results)
+                                <tr>
+                                    <td>{{ $results->id }}</td>
+                                    <td>{{ $results->symbolnumber }}</td>
+                                    <td>{{ $results->gpa }}</td>
+                                    <td><a href="{{ url('admin/user/' . $results->id) }}" class="btn btn-success">Edit</a>
+                                    </td>
+                                </tr>
+                            @endforeach
+                        </tbody>
+                    </table>
+                    {{-- {{ $users->links("pagination::bootstrap-4") }} --}}
                 </div>
             </div>
 
@@ -493,7 +476,7 @@
             </footer>
         </div>
     </div>
-
+    
 </body>
 
 <script src="../home_assets/js/core/jquery.3.2.1.min.js" type="text/javascript"></script>
@@ -507,57 +490,6 @@
 <script src="../home_assets/js/demo.js"></script>
 
 <script>
-    const track = document.getElementById("image-track");
-
-    const handleOnDown = e => track.dataset.mouseDownAt = e.clientX;
-
-    const handleOnUp = () => {
-        track.dataset.mouseDownAt = "0";
-        track.dataset.prevPercentage = track.dataset.percentage;
-    }
-
-    const handleOnMove = e => {
-        if (track.dataset.mouseDownAt === "0") return;
-
-        const mouseDelta = parseFloat(track.dataset.mouseDownAt) - e.clientX,
-            maxDelta = window.innerWidth / 2;
-
-        const percentage = (mouseDelta / maxDelta) * -100,
-            nextPercentageUnconstrained = parseFloat(track.dataset.prevPercentage) + percentage,
-            nextPercentage = Math.max(Math.min(nextPercentageUnconstrained, 0), -100);
-
-        track.dataset.percentage = nextPercentage;
-
-        track.animate({
-            transform: `translate(${nextPercentage}%, -50%)`
-        }, {
-            duration: 1200,
-            fill: "forwards"
-        });
-
-        for (const image of track.getElementsByClassName("image")) {
-            image.animate({
-                objectPosition: `${100 + nextPercentage}% center`
-            }, {
-                duration: 1200,
-                fill: "forwards"
-            });
-        }
-    }
-
-    /* -- Had to add extra lines for touch events -- */
-
-    window.onmousedown = e => handleOnDown(e);
-
-    window.ontouchstart = e => handleOnDown(e.touches[0]);
-
-    window.onmouseup = e => handleOnUp(e);
-
-    window.ontouchend = e => handleOnUp(e.touches[0]);
-
-    window.onmousemove = e => handleOnMove(e);
-
-    window.ontouchmove = e => handleOnMove(e.touches[0]);
     var curpage = 1;
     var sliding = false;
     var click = true;

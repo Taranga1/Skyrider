@@ -2,6 +2,18 @@
 <html lang="en">
 
 <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sky Admission</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap">
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a81368914c.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8" />
     <link rel="apple-touch-icon" sizes="76x76" href="../home_assets/img/apple-icon.png">
     <link rel="icon" type="image/png" href="../home_assets/img/favicon.ico">
@@ -15,69 +27,6 @@
     <link href="../home_assets/css/light-bootstrap-dashboard.css?v=2.0.0 " rel="stylesheet" />
     <link href="../home_assets/css/demo.css" rel="stylesheet" />
     <style>
-        .slowFade {
-            display: flex;
-            align-items: flex-start;
-            background: #fff;
-            height: 100vh;
-            overflow: hidden;
-            position: relative;
-        }
-
-        .slowFade .slide img {
-            position: absolute;
-            min-width: 100%;
-            height: 90%;
-            height: auto;
-            background: #000;
-            -webkit-backface-visibility: hidden;
-            backface-visibility: hidden;
-            opacity: 0;
-            transform: scale(1.5) rotate(15deg);
-            -webkit-animation: slowFade 32s infinite;
-            animation: slowFade 32s infinite;
-        }
-
-        .slowFade .slide:nth-child(3) img {
-            -webkit-animation-delay: 8s;
-            animation-delay: 8s;
-        }
-
-        .slowFade .slide:nth-child(2) img {
-            -webkit-animation-delay: 16s;
-            animation-delay: 16s;
-        }
-
-        .slowFade .slide:nth-child(1) img {
-            -webkit-animation-delay: 24s;
-            animation-delay: 24s;
-        }
-
-        @keyframes slowFade {
-            25% {
-                opacity: 1;
-                transform: scale(1) rotate(0);
-            }
-
-            40% {
-                opacity: 0;
-            }
-        }
-
-        @-webkit-keyframes slowFade {
-            25% {
-                opacity: 1;
-                transform: scale(1) rotate(0);
-            }
-
-            40% {
-                opacity: 0;
-            }
-        }
-
-
-
-
         @import url('https://fonts.googleapis.com/css?family=Heebo:800');
 
         * {
@@ -354,7 +303,7 @@
                         </a>
                     </li>
                     <li>
-                        <a class="nav-link" href="gallery">
+                        <a class="nav-link" href="/gallery">
                             <i class="nc-icon nc-paper-2"></i>
                             <p>Gallery</p>
                         </a>
@@ -398,7 +347,7 @@
             <!-- Navbar -->
             <nav class="navbar navbar-expand-lg " color-on-scroll="500">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href=""> Gallery </a>
+                    <a class="navbar-brand" href=""> Admission </a>
                     <button href="" class="navbar-toggler navbar-toggler-right" type="button"
                         data-toggle="collapse" aria-controls="navigation-index" aria-expanded="false"
                         aria-label="Toggle navigation">
@@ -413,7 +362,7 @@
 
 
 
-
+            @yield('user')
 
 
 
@@ -423,28 +372,71 @@
 
 
 
-            <div class="slides slowFade">
-                <div class="slide">
-                    <img src="https://imgs.search.brave.com/lWqbDW1WwIMbVH0GrhbeHnsp4D1NzTwkzEaUqfWfzEs/rs:fit:1090:630:1/g:ce/aHR0cHM6Ly93d3cu/c2t5cmlkZXIuZWR1/Lm5wL21lZGlhL2dh/bGxlcnlfaW1hZ2Uv/UHJpbWFyeV9CdWls/ZGluZ19CbG9ja19B/LnBuZw"
-                        alt="img" />
-                </div>
-                <div class="slide">
-                    <img src="https://imgs.search.brave.com/fp5MTZ6qWbpCPs8GicALzRHck4_T2fywFZPakxYEyd8/rs:fit:960:720:1/g:ce/aHR0cHM6Ly93d3cu/c2t5cmlkZXIuZWR1/Lm5wL3N0YXRpYy9p/bWcvc2s0LmpwZw"
-                        alt="img" />
-                </div>
-                <div class="slide">
-                    <img src="https://imgs.search.brave.com/3W4-sFdYytD523qSBC72BZF848LKQsVN6HcvlJq9Hys/rs:fit:1200:955:1/g:ce/aHR0cHM6Ly93d3cu/c2t5cmlkZXIuZWR1/Lm5wL21lZGlhL3Ns/aWRlcl9pbWcvc2sx/MF8xLmpwZw"
-                        alt="img" />
-                </div>
-                <div class="slide">
-                    <img src="https://imgs.search.brave.com/ZqwK_AeV7YY9gOV22gMCh50WsJtjAIvEK3fEwrJTsj8/rs:fit:1200:720:1/g:ce/aHR0cHM6Ly9pLnl0/aW1nLmNvbS92aS9G/NmRpSGhWXzI3VS9t/YXhyZXNkZWZhdWx0/LmpwZw"
-                        alt="img" />
-                </div>
-                <div class="slide">
-                    <img src="https://imgs.search.brave.com/b-2jSSmPGpPxMbdQT45Hw2Hq4TOa719Jp9T6Cb0st1w/rs:fit:1090:712:1/g:ce/aHR0cHM6Ly93d3cu/c2t5cmlkZXIuZWR1/Lm5wL21lZGlhL2dh/bGxlcnlfaW1hZ2Uv/RXh0cmFfQWN0aXZp/dGllc18yLnBuZw"
-                        alt="img" />
-                </div>
+            <div>
+
             </div>
+
+            <section id="section-wrapper">
+                <div class="box-wrapper">
+
+                    <div class="form-wrap">
+                        <form action="/admission/create" method="POST" enctype="multipart/form-data">
+                            @csrf
+                            <h2 class="form-title">Admission Form</h2>
+                            <div class="form-fields">
+                                <div class="form-group">
+                                    <input type="text" class="fname" name="fullname" placeholder="Full Name">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="fname" name="fathername"  placeholder="Father's Name">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="fname" name="mothername"  placeholder="Mother's Name">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="fname"  name="address1" placeholder="Address">
+                                </div>
+
+
+
+                                <div class="form-group">
+                                    <input type="text" class="lname"  name="nextclass" placeholder="Next Class">
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="email" name="gmail"  placeholder="Gmail">
+                                </div>
+                                <div class="form-group">
+                                    <input type="number" class="phone" name="phone1"  placeholder="Phone 1">
+                                </div>
+
+                                <div class="form-group">
+                                    <input type="number" class="phone"  name="phone2" placeholder="Phone 2">
+                                </div>
+
+                                <div class="form-group">
+                                    <input type="number" class="phone" name="gpa"  placeholder="GPA">
+                                </div>
+
+
+
+
+
+                                <div class="form-group">
+                                    <input type="date" class="phone" name="dob"  placeholder="DOB">
+                                </div>
+                                <div class="form-group">
+                                    <textarea name="description"  placeholder="Add Your Description"></textarea>
+                                </div>
+                            </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<h6>     Your Profile</h6><br>
+                            <input type="file"  name="image" name="" id="">
+                            
+                            <br><br>
+                            <input type="submit" value="Post Form" class="submit-button">
+                        </form>
+                    </div>
+                </div>
+            </section>
+
 
 
 
@@ -493,7 +485,85 @@
             </footer>
         </div>
     </div>
+    <!--   -->
+    <!-- <div class="fixed-plugin">
+    <div class="dropdown show-dropdown">
+        <a href="#" data-toggle="dropdown">
+            <i class="fa fa-cog fa-2x"> </i>
+        </a>
 
+        <ul class="dropdown-menu">
+   <li class="header-title"> Sidebar Style</li>
+            <li class="adjustments-line">
+                <a href="javascript:void(0)" class="switch-trigger">
+                    <p>Background Image</p>
+                    <label class="switch">
+                        <input type="checkbox" data-toggle="switch" checked="" data-on-color="primary" data-off-color="primary"><span class="toggle"></span>
+                    </label>
+                    <div class="clearfix"></div>
+                </a>
+            </li>
+            <li class="adjustments-line">
+                <a href="javascript:void(0)" class="switch-trigger background-color">
+                    <p>Filters</p>
+                    <div class="pull-right">
+                        <span class="badge filter badge-black" data-color="black"></span>
+                        <span class="badge filter badge-azure" data-color="azure"></span>
+                        <span class="badge filter badge-green" data-color="green"></span>
+                        <span class="badge filter badge-orange" data-color="orange"></span>
+                        <span class="badge filter badge-red" data-color="red"></span>
+                        <span class="badge filter badge-purple active" data-color="purple"></span>
+                    </div>
+                    <div class="clearfix"></div>
+                </a>
+            </li>
+            <li class="header-title">Sidebar Images</li>
+
+            <li class="active">
+                <a class="img-holder switch-trigger" href="javascript:void(0)">
+                    <img src="../home_assets/img/sidebar-1.jpg" alt="" />
+                </a>
+            </li>
+            <li>
+                <a class="img-holder switch-trigger" href="javascript:void(0)">
+                    <img src="../home_assets/img/sidebar-3.jpg" alt="" />
+                </a>
+            </li>
+            <li>
+                <a class="img-holder switch-trigger" href="javascript:void(0)">
+                    <img src="..//home_assets/img/sidebar-4.jpg" alt="" />
+                </a>
+            </li>
+            <li>
+                <a class="img-holder switch-trigger" href="javascript:void(0)">
+                    <img src="../home_assets/img/sidebar-5.jpg" alt="" />
+                </a>
+            </li>
+
+            <li class="button-container">
+                <div class="">
+                    <a href="http://www.creative-tim.com/product/light-bootstrap-dashboard" target="_blank" class="btn btn-info btn-block btn-fill">Download, it's free!</a>
+                </div>
+            </li>
+
+            <li class="header-title pro-title text-center">Want more components?</li>
+
+            <li class="button-container">
+                <div class="">
+                    <a href="http://www.creative-tim.com/product/light-bootstrap-dashboard-pro" target="_blank" class="btn btn-warning btn-block btn-fill">Get The PRO Version!</a>
+                </div>
+            </li>
+
+            <li class="header-title" id="sharrreTitle">Thank you for sharing!</li>
+
+            <li class="button-container">
+    <button id="twitter" class="btn btn-social btn-outline btn-twitter btn-round sharrre"><i class="fa fa-twitter"></i> · 256</button>
+                <button id="facebook" class="btn btn-social btn-outline btn-facebook btn-round sharrre"><i class="fa fa-facebook-square"></i> · 426</button>
+            </li>
+        </ul>
+    </div>
+</div>
+ -->
 </body>
 
 <script src="../home_assets/js/core/jquery.3.2.1.min.js" type="text/javascript"></script>
@@ -507,57 +577,6 @@
 <script src="../home_assets/js/demo.js"></script>
 
 <script>
-    const track = document.getElementById("image-track");
-
-    const handleOnDown = e => track.dataset.mouseDownAt = e.clientX;
-
-    const handleOnUp = () => {
-        track.dataset.mouseDownAt = "0";
-        track.dataset.prevPercentage = track.dataset.percentage;
-    }
-
-    const handleOnMove = e => {
-        if (track.dataset.mouseDownAt === "0") return;
-
-        const mouseDelta = parseFloat(track.dataset.mouseDownAt) - e.clientX,
-            maxDelta = window.innerWidth / 2;
-
-        const percentage = (mouseDelta / maxDelta) * -100,
-            nextPercentageUnconstrained = parseFloat(track.dataset.prevPercentage) + percentage,
-            nextPercentage = Math.max(Math.min(nextPercentageUnconstrained, 0), -100);
-
-        track.dataset.percentage = nextPercentage;
-
-        track.animate({
-            transform: `translate(${nextPercentage}%, -50%)`
-        }, {
-            duration: 1200,
-            fill: "forwards"
-        });
-
-        for (const image of track.getElementsByClassName("image")) {
-            image.animate({
-                objectPosition: `${100 + nextPercentage}% center`
-            }, {
-                duration: 1200,
-                fill: "forwards"
-            });
-        }
-    }
-
-    /* -- Had to add extra lines for touch events -- */
-
-    window.onmousedown = e => handleOnDown(e);
-
-    window.ontouchstart = e => handleOnDown(e.touches[0]);
-
-    window.onmouseup = e => handleOnUp(e);
-
-    window.ontouchend = e => handleOnUp(e.touches[0]);
-
-    window.onmousemove = e => handleOnMove(e);
-
-    window.ontouchmove = e => handleOnMove(e.touches[0]);
     var curpage = 1;
     var sliding = false;
     var click = true;
@@ -688,5 +707,6 @@
         }
     };
 </script>
+<script type="text/javascript" src="js/main.js"></script>
 
 </html>

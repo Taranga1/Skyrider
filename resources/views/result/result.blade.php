@@ -66,7 +66,6 @@
 <body>
 	<div class="container">
 		<div id="jsonTable"></div>
-		<div id="pagination"></div>
 	</div>
 </body>
 </html>

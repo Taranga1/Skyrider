@@ -58,6 +58,7 @@ Route::group(['prefix' => 'admin'], function() {
 	});
 
 	Route::get('/results/display',[App\Http\Controllers\ResultController::class , 'DisplayResults']);
+	Route::get('/admission/display',[App\Http\Controllers\UserAdmissionDisplay::class , 'DisplayAdmission']);
     Route::get('/users/index',[App\Http\Controllers\Admin\UserController::class , 'index']);
     // Route::get('/brochure',[App\Http\Controllers\BrochureController::class , 'brochure']);
 });

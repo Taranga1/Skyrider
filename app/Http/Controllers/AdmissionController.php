@@ -15,8 +15,6 @@ class AdmissionController extends Controller
 
     function store(Request $req)
     {
-        $image = $req->image;
-        $new_image = time() . $image->getClientOriginalName();
         $admission = new Admission;
         $admission->id=$req->id;
         $admission->fullname=$req->fullname;
@@ -30,7 +28,13 @@ class AdmissionController extends Controller
         $admission->gpa=$req->gpa;
         $admission->dob=$req->dob;
         $admission->description=$req->description;
-        $admission->image = "images1/" . $new_image;
+        if($req->hasfile('image')){
+            $file = $req->file('image');
+            $extension = $file->getClientOriginalExtension();
+            $filename = time().'.'.$extension;
+            $file->move('uploads/useradmissionimage', $filename);
+            $admission->image = $filename;
+        }
         $admission->save();
         return redirect()->back();
     }

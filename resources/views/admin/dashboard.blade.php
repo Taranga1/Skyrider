@@ -58,7 +58,7 @@ button {
     <a href="/admin/users/index"><button>View Users</button></a>
     <a href="/admin/results/create"><button style="--c: #373B44;--b: 5px;--s:12px">Add Result</button></a>
     <a href="/admin/results/display"><button>View Result</button></a>
-    <button style="--c: #373B44;--b: 5px;--s:12px">Fun 4</button>
+    <a href="/admin/admission/display"><button style="--c: #373B44;--b: 5px;--s:12px">View Admissions</button></a>
     <button>Fun 3</button>
     <button style="--c: #373B44;--b: 5px;--s:12px">Fun 4</button>
 

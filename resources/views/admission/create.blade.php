@@ -414,7 +414,7 @@
                                 </div>
 
                                 <div class="form-group">
-                                    <input type="number" class="phone" name="gpa"  placeholder="GPA">
+                                    <input type="text" class="phone" name="gpa"  placeholder="GPA">
                                 </div>
 
 
@@ -428,7 +428,7 @@
                                     <textarea name="description"  placeholder="Add Your Description"></textarea>
                                 </div>
                             </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<h6>     Your Profile</h6><br>
-                            <input type="file"  name="image" name="" id="">
+                            <input type="file"  name="image" id="" accept="image/*" required id="image">
                             
                             <br><br>
                             <input type="submit" value="Post Form" class="submit-button">

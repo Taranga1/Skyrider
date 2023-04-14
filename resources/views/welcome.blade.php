@@ -206,7 +206,8 @@
                     <div class="section-heading">
                         <h2><em></em> <span> innovative curriculum, experienced teachers, and modern facilities.</span>
                         </h2>
-                        <p>Provides educational facility which may include modern classrooms and facilities, advanced technology,
+                        <p>Provides educational facility which may include modern classrooms and facilities, advanced
+                            technology,
                             well-stocked libraries, laboratories, and computer labs, highly qualified and experienced
                             teachers, and a wide range of extracurricular activities to enhance student learning and
                             development. We also have a strong academic program with a focus on
@@ -258,11 +259,12 @@
                     <a href="#">
                         <div class="item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
                             <div class="hidden-content">
-                                <h4>SEO Analysis</h4>
-                                <p>Lorem ipsum dolor sit ameti ctetur aoi adipiscing eto.</p>
+                                <h4>Kamal Lamichchhane</h4>
+                                <p> In my school, I got all the support and
+                                    guidance that helped me to get better.</p>
                             </div>
                             <div class="showed-content">
-                                <img src="assets/images/portfolio-image.png" alt="">
+                                <img src="assets/images/kamal.jpg" alt="" height="100px" width="80px">
                             </div>
                         </div>
                     </a>
@@ -275,7 +277,7 @@
                                 <p>Lorem ipsum dolor sit ameti ctetur aoi adipiscing eto.</p>
                             </div>
                             <div class="showed-content">
-                                <img src="assets/images/portfolio-image.png" alt="">
+                                <img src="assets/images/madan.jpg" alt="">
                             </div>
                         </div>
                     </a>
@@ -391,9 +393,9 @@
                     data-wow-delay="0.25s">
                     <div class="section-heading">
                         <h2>Feel Free To Send Us a Message .</h2>
-                        <p>We  have a strong academic program with a focus on
-                          student-centered teaching, personalized attention, and student engagement to ensure that
-                          students receive a well-rounded education.</p>
+                        <p>We have a strong academic program with a focus on
+                            student-centered teaching, personalized attention, and student engagement to ensure that
+                            students receive a well-rounded education.</p>
                         <div class="phone-info">
                             <h4>For any enquiry, Call Us: <span><i class="fa fa-phone"></i> <a
                                         href="#">056562277</a></span></h4>

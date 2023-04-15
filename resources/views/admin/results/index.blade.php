@@ -3,7 +3,7 @@
 @section('content')
     <div class="container-fluid px-4">
         <div class="card-header">
-            <h4>View Results</h4>
+            <h4>View Notice</h4>
         </div>
         <div class="card-body">
             @if(session("message"))
@@ -20,12 +20,12 @@
                     </tr>
                 </thead>
                 <tbody>
-                    @foreach ($results as $results)
+                    @foreach ($results as $result)
                         <tr>
-                            <td>{{$results->id}}</td>
-                            <td>{{$results->symbolnumber}}</td>
-                            <td>{{$results->gpa}}</td>
-                            <td><a href="{{ url('admin/user/'.$results->id)}}" class="btn btn-success">Edit</a></td>
+                            <td>{{$result->id}}</td>
+                            <td>{{$result->symbolnumber}}</td>
+                            <td>{{$result->gpa}}</td>
+                            <td><a href="{{ url('result/'.$result->id)}}" class="btn btn-success">Edit</a></td>
                         </tr>
                     @endforeach
                 </tbody>

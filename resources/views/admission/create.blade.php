@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sky Admission</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap">
     <!-- Font Awesome CDN -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
@@ -291,7 +292,7 @@
                         </a>
                     </li>
                     <li>
-                        <a class="nav-link" href="/results">
+                        <a class="nav-link" href="/user/result">
                             <i class="nc-icon nc-circle-09"></i>
                             <p>Student Results</p>
                         </a>
@@ -321,9 +322,16 @@
                         </a>
                     </li>
                     <li>
-                        <a class="nav-link" href="./notifications.html">
+                        <a class="nav-link" href="/user/notice">
                             <i class="nc-icon nc-bell-55"></i>
                             <p>Notice</p>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a class="nav-link" href="https://www.facebook.com/skyrider.edu.np" target="_BLANK">
+                          <i class="material-icons">facebook</i>
+                            <p>Facebook Page</p>
                         </a>
                     </li>
                     <li class="nav-item active active-pro">

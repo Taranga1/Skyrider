@@ -3,17 +3,19 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Models\Result ;
-class ResultController extends Controller
+use App\Models\Notice;
+
+use function GuzzleHttp\Promise\all;
+
+class UserNoticeController extends Controller
 {
-    
     /**
      * Display a listing of the resource.
      */
     public function index()
     {
-        $results = Result::all();
-        return view('admin.results.index',compact('results'));
+        $notice = Notice::paginate(5);
+        return view('usernotice.page',compact('notice'));
     }
 
     /**
@@ -21,7 +23,7 @@ class ResultController extends Controller
      */
     public function create()
     {
-        return view('admin.results.create');
+        //
     }
 
     /**
@@ -29,12 +31,7 @@ class ResultController extends Controller
      */
     public function store(Request $request)
     {
-        $result = new Result() ;
-        $result->id=$request->id ;
-        $result->symbolnumber=$request->symbolnumber ;
-        $result->gpa=$request->gpa ;
-        $result->save();
-        return redirect()->back();
+        //
     }
 
     /**
@@ -68,5 +65,4 @@ class ResultController extends Controller
     {
         //
     }
-
 }

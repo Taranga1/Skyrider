@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <meta charset="utf-8" />
     <link rel="apple-touch-icon" sizes="76x76" href="../home_assets/img/apple-icon.png">
     <link rel="icon" type="image/png" href="../home_assets/img/favicon.ico">
@@ -261,11 +262,18 @@
                         </a>
                     </li>
                     <li>
-                        <a class="nav-link" href="./notifications.html">
+                        <a class="nav-link" href="/user/notice">
                             <i class="nc-icon nc-bell-55"></i>
                             <p>Notice</p>
                         </a>
                     </li>
+
+                    <li>
+                      <a class="nav-link" href="https://www.facebook.com/skyrider.edu.np" target="_BLANK">
+                        <i class="material-icons">facebook</i>
+                          <p>Facebook Page</p>
+                      </a>
+                  </li>
                     <li class="nav-item active active-pro">
                         <a class="nav-link active" href="{{ route('logout') }}" onclick="event.preventDefault();
                         document.getElementById('logout-form').submit();" >

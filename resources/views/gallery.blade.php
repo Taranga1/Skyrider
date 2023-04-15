@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="utf-8" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="apple-touch-icon" sizes="76x76" href="../home_assets/img/apple-icon.png">
     <link rel="icon" type="image/png" href="../home_assets/img/favicon.ico">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
@@ -342,7 +343,7 @@
                         </a>
                     </li>
                     <li>
-                        <a class="nav-link" href="/results">
+                        <a class="nav-link" href="/user/result">
                             <i class="nc-icon nc-circle-09"></i>
                             <p>Student Results</p>
                         </a>
@@ -372,9 +373,16 @@
                         </a>
                     </li>
                     <li>
-                        <a class="nav-link" href="./notifications.html">
+                        <a class="nav-link" href="/user/notice">
                             <i class="nc-icon nc-bell-55"></i>
                             <p>Notice</p>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a class="nav-link" href="https://www.facebook.com/skyrider.edu.np" target="_BLANK">
+                          <i class="material-icons">facebook</i>
+                            <p>Facebook Page</p>
                         </a>
                     </li>
                     <li class="nav-item active active-pro">

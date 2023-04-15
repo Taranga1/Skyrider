@@ -2,18 +2,18 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Notice;
 use Illuminate\Http\Request;
-use App\Models\Result ;
-class ResultController extends Controller
+
+class NoticeController extends Controller
 {
-    
     /**
      * Display a listing of the resource.
      */
     public function index()
     {
-        $results = Result::all();
-        return view('admin.results.index',compact('results'));
+        $notices = Notice::all();
+        return view('admin.notice.index',compact('notices'));
     }
 
     /**
@@ -21,7 +21,7 @@ class ResultController extends Controller
      */
     public function create()
     {
-        return view('admin.results.create');
+        return view('admin.notice.create');
     }
 
     /**
@@ -29,11 +29,11 @@ class ResultController extends Controller
      */
     public function store(Request $request)
     {
-        $result = new Result() ;
-        $result->id=$request->id ;
-        $result->symbolnumber=$request->symbolnumber ;
-        $result->gpa=$request->gpa ;
-        $result->save();
+        $notice = new Notice();
+        $notice->title = $request->title;
+        $notice->description =  $request->description;
+        $notice->date = $request->date;
+        $notice->save();
         return redirect()->back();
     }
 
@@ -68,5 +68,4 @@ class ResultController extends Controller
     {
         //
     }
-
 }

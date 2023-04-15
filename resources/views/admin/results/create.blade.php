@@ -405,7 +405,7 @@ figure .shirt-2 {
     <title>Result Create</title>
 </head>
 <body>
-    <form method="POST" action="/admin/results" id="login-form" class="login-form" autocomplete="off" role="main">
+    <form method="POST" action="/result" id="login-form" class="login-form" autocomplete="off" role="main">
         @csrf
         <h1 class="a11y-hidden">Login Form</h1>
         <div>

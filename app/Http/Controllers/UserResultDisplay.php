@@ -4,16 +4,62 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Result ;
-class ResultController extends Controller
+class UserResultDisplay extends Controller
 {
     
-
-    public function DisplayResults(){
-        $result = Result::all();
-        return response()->json(['result' => $result()] ,200);
+    /**
+     * Display a listing of the resource.
+     */
+    public function index(){
+        $result = Result::paginate(5);
+        return view('userresult.page',compact('result'));
     }
 
-    function getData(){
-        return Result::all();
+    /**
+     * Show the form for creating a new resource.
+     */
+    public function create()
+    {
+        //
+    }
+
+    /**
+     * Store a newly created resource in storage.
+     */
+    public function store(Request $request)
+    {
+        //
+    }
+
+    /**
+     * Display the specified resource.
+     */
+    public function show(string $id)
+    {
+        //
+    }
+
+    /**
+     * Show the form for editing the specified resource.
+     */
+    public function edit(string $id)
+    {
+        //
+    }
+
+    /**
+     * Update the specified resource in storage.
+     */
+    public function update(Request $request, string $id)
+    {
+        //
+    }
+
+    /**
+     * Remove the specified resource from storage.
+     */
+    public function destroy(string $id)
+    {
+        //
     }
 }

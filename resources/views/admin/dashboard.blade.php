@@ -229,7 +229,7 @@
         /* home section styling */
         .home {
             display: flex;
-            background: url("https://scontent.fbhr1-1.fna.fbcdn.net/v/t39.30808-6/337258755_1144886296207937_2838845873013225527_n.jpg?stp=cp6_dst-jpg&_nc_cat=100&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=xw8iZG_7qggAX_X0FEC&_nc_ht=scontent.fbhr1-1.fna&oh=00_AfDZn8W5l83Gs5Gls5GfK4xMxSS4GPTrzd1hllpcIcjsPw&oe=643EEE30") no-repeat center;
+            background: url("https://scontent.fbhr1-1.fna.fbcdn.net/v/t39.30808-6/338995687_205492052117787_3490234844112854863_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=BXdqfbP0OB8AX9T1Yqz&_nc_ht=scontent.fbhr1-1.fna&oh=00_AfBbyFXRJFSULveYNWlxLF-fIQ97_DuAhqVkaEQ6YhVLzg&oe=643EECF0") no-repeat center;
             height: 100vh;
             color: #fff;
             min-height: 500px;
@@ -396,7 +396,7 @@
         /* skills section styling */
 
         .skills .title::after {
-            content: "what i know";
+            content: "% of Language";
         }
 
         .skills .skills-content .column {
@@ -464,23 +464,26 @@
         }
 
         .skills-content .right .html::before {
-            width: 90%;
+            width: 10%;
         }
 
         .skills-content .right .css::before {
-            width: 60%;
+            width: 20%;
         }
 
         .skills-content .right .js::before {
-            width: 80%;
+            width: 20%;
         }
 
         .skills-content .right .php::before {
-            width: 50%;
+            width: 20%;
         }
 
         .skills-content .right .mysql::before {
-            width: 70%;
+            width: 10%;
+        }
+        .skills-content .right .laravel::before {
+            width: 20%;
         }
 
         /* teams section styling */
@@ -854,11 +857,11 @@
             <ul class="menu">
                 <li><a href="#home" class="menu-btn">Home</a></li>
                 <li><a href="/admin/users/index" class="menu-btn">View Users</a></li>
-                <li><a href="/admin/results/create" class="menu-btn">Add Result</a></li>
-                <li><a href="/admin/results/display" class="menu-btn">View Result</a></li>
+                <li><a href="/result/create" class="menu-btn">Add Result</a></li>
+                <li><a href="/result/" class="menu-btn">View Result</a></li>
                 <li><a href="/admin/admission/display" class="menu-btn">View Admissions</a></li>
-                <li><a href="https://mail.google.com/mail/u/0/#inbox" class="menu-btn" target="_blank">Gmail</a></li>
-                <li><a href="#teams" class="menu-btn">Notice</a></li>
+                <li><a href="/notice/create" class="menu-btn">Add Notice</a></li>
+                <li><a href="/notice/" class="menu-btn">View Notice</a></li>
             </ul>
             <div class="menu-btn">
                 <i class="fas fa-bars"></i>
@@ -938,10 +941,10 @@
     <!-- skills section start -->
     <section class="skills" id="skills">
         <div class="max-width">
-            <h2 class="title">My skills</h2>
+            <h2 class="title">Language Used</h2>
             <div class="skills-content">
                 <div class="column left">
-                    <div class="text">My creative skills & experiences.</div>
+                    <div class="text">We used Different Language To Make this Website</div>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, ratione error est
                         recusandae consequatur, iusto illum deleniti quidem impedit, quos quaerat quis minima sequi.
                         Cupiditate recusandae laudantium esse, harum animi aspernatur quisquam et delectus ipsum quam
@@ -952,41 +955,55 @@
                     <div class="bars">
                         <div class="info">
                             <span>HTML</span>
-                            <span>90%</span>
+                            <span>10%</span>
                         </div>
                         <div class="line html"></div>
                     </div>
                     <div class="bars">
                         <div class="info">
                             <span>CSS</span>
-                            <span>60%</span>
+                            <span>20%</span>
                         </div>
                         <div class="line css"></div>
                     </div>
                     <div class="bars">
                         <div class="info">
                             <span>JavaScript</span>
-                            <span>80%</span>
+                            <span>20%</span>
                         </div>
                         <div class="line js"></div>
                     </div>
                     <div class="bars">
                         <div class="info">
                             <span>PHP</span>
-                            <span>50%</span>
+                            <span>20%</span>
                         </div>
                         <div class="line php"></div>
                     </div>
+
+                    <div class="bars">
+                        <div class="info">
+                            <span>Laravel</span>
+                            <span>20%</span>
+                        </div>
+                        <div class="line laravel"></div>
+                    </div>
+
+
                     <div class="bars">
                         <div class="info">
                             <span>MySQL</span>
-                            <span>70%</span>
+                            <span>10%</span>
                         </div>
                         <div class="line mysql"></div>
                     </div>
+            <h1 style="color:rgb(235, 20, 77);">Total :- 100 %</h1>
+            
+
                 </div>
             </div>
         </div>
+        
     </section>
 
     <!-- teams section start -->

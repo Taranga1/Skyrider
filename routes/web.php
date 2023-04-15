@@ -1,7 +1,11 @@
 <?php
 
 use App\Http\Controllers\AdmissionController;
+use App\Http\Controllers\NoticeController;
 use App\Http\Controllers\ResultController;
+use App\Http\Controllers\UserNoticeController;
+use App\Http\Controllers\UserResultDisplay;
+use App\Models\UserResult;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -28,11 +32,8 @@ Route::get('/sky_location', function () {
 });
 
 
-Route::get('/results', function () {
-    return view('result.result');
-});
-
-
+Route::get('user/notice',[UserNoticeController::class ,'index'])->name('usernotice.page');
+Route::get('user/result',[UserResultDisplay::class ,'index'])->name('userresult.page');
 Route::get('/gallery', function () {
     return view('gallery');
 });
@@ -57,13 +58,14 @@ Route::group(['prefix' => 'admin'], function() {
         Route::get('/logout', [App\Http\Controllers\AdminController::class, 'logout'])->name('admin.logout');
 	});
 
-	Route::get('/results/display',[App\Http\Controllers\ResultController::class , 'DisplayResults']);
 	Route::get('/admission/display',[App\Http\Controllers\UserAdmissionDisplay::class , 'DisplayAdmission']);
     Route::get('/users/index',[App\Http\Controllers\Admin\UserController::class , 'index']);
     // Route::get('/brochure',[App\Http\Controllers\BrochureController::class , 'brochure']);
 });
 
-Route::view('/admin/results/create','admin.results.create');
 
-Route::POST('/admin/results',[ResultController::class,'AddResults']);
+
+
 Route::POST('/admission/create',[AdmissionController::class,'store']);
+Route::resource('notice',NoticeController::class);
+Route::resource('result',ResultController::class);

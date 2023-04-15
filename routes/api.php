@@ -1,9 +1,9 @@
 <?php
 
 use App\Http\Controllers\AdmissionController;
-use App\Http\Controllers\ResultController;
+use App\Http\Controllers\Api\ResultController;
 use App\Http\Controllers\Api\UserController;
-use App\Http\Controllers\NoticeController;
+use App\Http\Controllers\Api\NoticeController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 

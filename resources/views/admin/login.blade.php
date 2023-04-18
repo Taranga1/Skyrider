@@ -35,7 +35,7 @@
         flex: 1;
         background: linear-gradient(to right, #f50629 0%, #fd9d08 100%);
         transition: 1s;
-        background-image: url(https://imgs.search.brave.com/3W4-sFdYytD523qSBC72BZF848LKQsVN6HcvlJq9Hys/rs:fit:1200:955:1/g:ce/aHR0cHM6Ly93d3cu/c2t5cmlkZXIuZWR1/Lm5wL21lZGlhL3Ns/aWRlcl9pbWcvc2sx/MF8xLmpwZw);
+        background-image: url(https://imgs.search.brave.com/kdSRWVnvwyGjssBvn1ww8HdwOq4WbfL-DFB5_tHl6wY/rs:fit:1200:744:1/g:ce/aHR0cHM6Ly90aHVt/YnMuZHJlYW1zdGlt/ZS5jb20vYi9hZG1p/bi13b3JkLXdyaXR0/ZW4td29vZGVuLWJs/b2Nrcy13b29kZW4t/dGFibGUtY29uY2Vw/dC15b3VyLWRlc2ln/bi1hZG1pbi13b3Jk/LXdyaXR0ZW4td29v/ZGVuLWJsb2Nrcy13/b29kZW4tdGFibGUt/MjEwOTk0NDgzLmpw/Zw);
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;

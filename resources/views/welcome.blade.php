@@ -23,7 +23,11 @@
     <link rel="stylesheet" href="assets/css/owl.css">
 
 </head>
-
+<style>
+    img{
+        border-radius: 50%
+    }
+</style>
 <body>
 
     <!-- ***** Preloader Start ***** -->
@@ -260,8 +264,8 @@
                         <div class="item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
                             <div class="hidden-content">
                                 <h4>Kamal Lamichchhane</h4>
-                                <p> In my school, I got all the support and
-                                    guidance that helped me to get better.</p>
+                                <p> I got all support and
+                                    guidance for betterment.</p>
                             </div>
                             <div class="showed-content">
                                 <img src="assets/images/kamal.jpg" alt="" height="100px" width="80px">
@@ -273,11 +277,11 @@
                     <a href="#">
                         <div class="item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.4s">
                             <div class="hidden-content">
-                                <h4>Website Reporting</h4>
-                                <p>Lorem ipsum dolor sit ameti ctetur aoi adipiscing eto.</p>
+                                <h4>Sandeep Khadka</h4>
+                                <p>No Words to Describe about School .</p>
                             </div>
                             <div class="showed-content">
-                                <img src="assets/images/madan.jpg" alt="">
+                                <img src="https://i.redd.it/8fqzw8yxpkp11.jpg" alt="" height="100px" width="80px">
                             </div>
                         </div>
                     </a>
@@ -286,11 +290,12 @@
                     <a href="#">
                         <div class="item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.5s">
                             <div class="hidden-content">
-                                <h4>Performance Tests</h4>
-                                <p>Lorem ipsum dolor sit ameti ctetur aoi adipiscing eto.</p>
+                                <h4>Keshav Bhakta</h4>
+                                <p>Best School ever growned in with beautiful environment</p>
                             </div>
                             <div class="showed-content">
-                                <img src="assets/images/portfolio-image.png" alt="">
+                                <img src="https://s.yimg.com/ny/api/res/1.2/uL6C1Jl3LgE5y822Puwwsw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTQ4MA--/https://s.yimg.com/uu/api/res/1.2/3ErQJs24BWEbSzVuNn.Krg--~B/aD0xMDk3O3c9MTQ2MzthcHBpZD15dGFjaHlvbg--/http://globalfinance.zenfs.com/en_us/Finance/US_AFTP_SILICONALLEY_H_LIVE/Google_rewarded_the_guy_who-cb914d79c7ae31dff0c551ddfb859b2c"
+                                    alt="" height="100px" width="80px">
                             </div>
                         </div>
                     </a>
@@ -299,11 +304,11 @@
                     <a href="#">
                         <div class="item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.6s">
                             <div class="hidden-content">
-                                <h4>Data Analysis</h4>
-                                <p>Lorem ipsum dolor sit ameti ctetur aoi adipiscing eto.</p>
+                                <h4>Dharma Singh</h4>
+                                <p>It was where i was growned in with full support from teachers</p>
                             </div>
                             <div class="showed-content">
-                                <img src="assets/images/portfolio-image.png" alt="">
+                                <img src="https://i.pinimg.com/originals/1f/8f/88/1f8f88fd1dc3eb2aab83b71330777d04.jpg" alt="" height="100px" width="80px">
                             </div>
                         </div>
                     </a>

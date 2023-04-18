@@ -16,65 +16,34 @@
     <link href="../home_assets/css/light-bootstrap-dashboard.css?v=2.0.0 " rel="stylesheet" />
     <link href="../home_assets/css/demo.css" rel="stylesheet" />
     <style>
-        .slowFade {
-            display: flex;
-            align-items: flex-start;
-            background: #fff;
-            height: 100vh;
-            overflow: hidden;
-            position: relative;
-        }
+       
 
-        .slowFade .slide img {
-            position: absolute;
-            min-width: 100%;
-            height: 90%;
-            height: auto;
-            background: #000;
-            -webkit-backface-visibility: hidden;
-            backface-visibility: hidden;
-            opacity: 0;
-            transform: scale(1.5) rotate(15deg);
-            -webkit-animation: slowFade 32s infinite;
-            animation: slowFade 32s infinite;
-        }
+canvas {
+   position: absolute;
+   backface-visibility: hidden;
+   -webkit-backface-visibility: hidden;
+   -moz-backface-visibility: hidden;
+   -ms-backface-visibility: hidden;
+}
 
-        .slowFade .slide:nth-child(3) img {
-            -webkit-animation-delay: 8s;
-            animation-delay: 8s;
-        }
+img {
+    width: 90%;
+   position: absolute;
+   cursor: pointer;
+}
 
-        .slowFade .slide:nth-child(2) img {
-            -webkit-animation-delay: 16s;
-            animation-delay: 16s;
-        }
+#container {
+   position: absolute;
+   width: 768px;
+   height: 485px;
+   left: 20%;
+   right: 50%;
+   top: 0%;
+   bottom: 0;
+   margin: auto;
+}
 
-        .slowFade .slide:nth-child(1) img {
-            -webkit-animation-delay: 24s;
-            animation-delay: 24s;
-        }
 
-        @keyframes slowFade {
-            25% {
-                opacity: 1;
-                transform: scale(1) rotate(0);
-            }
-
-            40% {
-                opacity: 0;
-            }
-        }
-
-        @-webkit-keyframes slowFade {
-            25% {
-                opacity: 1;
-                transform: scale(1) rotate(0);
-            }
-
-            40% {
-                opacity: 0;
-            }
-        }
 
 
 
@@ -431,30 +400,16 @@
 
 
 
-            <div class="slides slowFade">
-                <div class="slide">
-                    <img src="https://imgs.search.brave.com/lWqbDW1WwIMbVH0GrhbeHnsp4D1NzTwkzEaUqfWfzEs/rs:fit:1090:630:1/g:ce/aHR0cHM6Ly93d3cu/c2t5cmlkZXIuZWR1/Lm5wL21lZGlhL2dh/bGxlcnlfaW1hZ2Uv/UHJpbWFyeV9CdWls/ZGluZ19CbG9ja19B/LnBuZw"
-                        alt="img" />
-                </div>
-                <div class="slide">
-                    <img src="https://imgs.search.brave.com/fp5MTZ6qWbpCPs8GicALzRHck4_T2fywFZPakxYEyd8/rs:fit:960:720:1/g:ce/aHR0cHM6Ly93d3cu/c2t5cmlkZXIuZWR1/Lm5wL3N0YXRpYy9p/bWcvc2s0LmpwZw"
-                        alt="img" />
-                </div>
-                <div class="slide">
-                    <img src="https://imgs.search.brave.com/3W4-sFdYytD523qSBC72BZF848LKQsVN6HcvlJq9Hys/rs:fit:1200:955:1/g:ce/aHR0cHM6Ly93d3cu/c2t5cmlkZXIuZWR1/Lm5wL21lZGlhL3Ns/aWRlcl9pbWcvc2sx/MF8xLmpwZw"
-                        alt="img" />
-                </div>
-                <div class="slide">
-                    <img src="https://imgs.search.brave.com/ZqwK_AeV7YY9gOV22gMCh50WsJtjAIvEK3fEwrJTsj8/rs:fit:1200:720:1/g:ce/aHR0cHM6Ly9pLnl0/aW1nLmNvbS92aS9G/NmRpSGhWXzI3VS9t/YXhyZXNkZWZhdWx0/LmpwZw"
-                        alt="img" />
-                </div>
-                <div class="slide">
-                    <img src="https://imgs.search.brave.com/b-2jSSmPGpPxMbdQT45Hw2Hq4TOa719Jp9T6Cb0st1w/rs:fit:1090:712:1/g:ce/aHR0cHM6Ly93d3cu/c2t5cmlkZXIuZWR1/Lm5wL21lZGlhL2dh/bGxlcnlfaW1hZ2Uv/RXh0cmFfQWN0aXZp/dGllc18yLnBuZw"
-                        alt="img" />
-                </div>
-            </div>
+            
 
 
+            <div id="container"></div>
+            <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/175711/delaunay.js"></script>
+            <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.13.2/TweenMax.min.js"></script>
+
+
+
+            
 
             {{-- HTML ENDS HERE BODY PART --}}
 
@@ -464,41 +419,7 @@
 
 
 
-            <footer class="footer">
-                <div class="container-fluid">
-                    <nav>
-                        <ul class="footer-menu">
-                            <li>
-                                <a href="#">
-                                    Home
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    Company
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    Portfolio
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    Blog
-                                </a>
-                            </li>
-                        </ul>
-                        <p class="copyright text-center">
-                            ©
-                            <script>
-                                document.write(new Date().getFullYear())
-                            </script>
-                            <a href="https://www.facebook.com/profile.php?id=100081127939222">Taranga Baral</a>
-                        </p>
-                    </nav>
-                </div>
-            </footer>
+            
         </div>
     </div>
 
@@ -695,6 +616,243 @@
             rightSlide();
         }
     };
+</script>
+
+<script>
+    const TWO_PI = Math.PI * 2;
+
+var images = [],
+    imageIndex = 0;
+
+var image,
+    imageWidth = 768,
+    imageHeight = 485;
+
+var vertices = [],
+    indices = [],
+    fragments = [];
+
+var container = document.getElementById('container');
+
+var clickPosition = [imageWidth * 0.5, imageHeight * 0.5];
+
+window.onload = function() {
+    TweenMax.set(container, {perspective:500});
+
+    // images from reddit/r/wallpapers
+    var urls = [
+            'https://imgs.search.brave.com/vk-SczzXaQ1rBqO4b4fJqkMs1t1LrKqNnx6pXaflRNc/rs:fit:964:634:1/g:ce/aHR0cHM6Ly93d3cu/c2t5cmlkZXIuZWR1/Lm5wL21lZGlhL2dh/bGxlcnlfaW1hZ2Uv/RXh0cmFfQWN0aXZp/dGllc18zLnBuZw',
+            'https://imgs.search.brave.com/ZqwK_AeV7YY9gOV22gMCh50WsJtjAIvEK3fEwrJTsj8/rs:fit:1200:720:1/g:ce/aHR0cHM6Ly9pLnl0/aW1nLmNvbS92aS9G/NmRpSGhWXzI3VS9t/YXhyZXNkZWZhdWx0/LmpwZw',
+            'https://imgs.search.brave.com/3W4-sFdYytD523qSBC72BZF848LKQsVN6HcvlJq9Hys/rs:fit:1200:955:1/g:ce/aHR0cHM6Ly93d3cu/c2t5cmlkZXIuZWR1/Lm5wL21lZGlhL3Ns/aWRlcl9pbWcvc2sx/MF8xLmpwZw',
+            'https://imgs.search.brave.com/lWqbDW1WwIMbVH0GrhbeHnsp4D1NzTwkzEaUqfWfzEs/rs:fit:1090:630:1/g:ce/aHR0cHM6Ly93d3cu/c2t5cmlkZXIuZWR1/Lm5wL21lZGlhL2dh/bGxlcnlfaW1hZ2Uv/UHJpbWFyeV9CdWls/ZGluZ19CbG9ja19B/LnBuZw'
+        ],
+        image,
+        loaded = 0;
+    // very quick and dirty hack to load and display the first image asap
+    images[0] = image = new Image();
+        image.onload = function() {
+            if (++loaded === 1) {
+                imagesLoaded();
+                for (var i = 1; i < 4; i++) {
+                    images[i] = image = new Image();
+
+                    image.src = urls[i];
+                }
+            }
+        };
+        image.src = urls[0];
+};
+
+function imagesLoaded() {
+    placeImage(false);
+    triangulate();
+    shatter();
+}
+
+function placeImage(transitionIn) {
+    image = images[imageIndex];
+
+    if (++imageIndex === images.length) imageIndex = 0;
+
+    image.addEventListener('click', imageClickHandler);
+    container.appendChild(image);
+
+    if (transitionIn !== false) {
+        TweenMax.fromTo(image, 0.75, {y:-1000}, {y:0, ease:Back.easeOut});
+    }
+}
+
+function imageClickHandler(event) {
+    var box = image.getBoundingClientRect(),
+        top = box.top,
+        left = box.left;
+
+    clickPosition[0] = event.clientX - left;
+    clickPosition[1] = event.clientY - top;
+
+    triangulate();
+    shatter();
+}
+
+function triangulate() {
+    var rings = [
+            {r:50, c:12},
+            {r:150, c:12},
+            {r:300, c:12},
+            {r:1200, c:12} // very large in case of corner clicks
+        ],
+        x,
+        y,
+        centerX = clickPosition[0],
+        centerY = clickPosition[1];
+
+    vertices.push([centerX, centerY]);
+
+    rings.forEach(function(ring) {
+        var radius = ring.r,
+            count = ring.c,
+            variance = radius * 0.25;
+
+        for (var i = 0; i < count; i++) {
+            x = Math.cos((i / count) * TWO_PI) * radius + centerX + randomRange(-variance, variance);
+            y = Math.sin((i / count) * TWO_PI) * radius + centerY + randomRange(-variance, variance);
+            vertices.push([x, y]);
+        }
+    });
+
+    vertices.forEach(function(v) {
+        v[0] = clamp(v[0], 0, imageWidth);
+        v[1] = clamp(v[1], 0, imageHeight);
+    });
+
+    indices = Delaunay.triangulate(vertices);
+}
+
+function shatter() {
+    var p0, p1, p2,
+        fragment;
+
+    var tl0 = new TimelineMax({onComplete:shatterCompleteHandler});
+
+    for (var i = 0; i < indices.length; i += 3) {
+        p0 = vertices[indices[i + 0]];
+        p1 = vertices[indices[i + 1]];
+        p2 = vertices[indices[i + 2]];
+
+        fragment = new Fragment(p0, p1, p2);
+
+        var dx = fragment.centroid[0] - clickPosition[0],
+            dy = fragment.centroid[1] - clickPosition[1],
+            d = Math.sqrt(dx * dx + dy * dy),
+            rx = 30 * sign(dy),
+            ry = 90 * -sign(dx),
+            delay = d * 0.003 * randomRange(0.9, 1.1);
+        fragment.canvas.style.zIndex = Math.floor(d).toString();
+
+        var tl1 = new TimelineMax();
+
+
+        tl1.to(fragment.canvas, 1, {
+            z:-500,
+            rotationX:rx,
+            rotationY:ry,
+            ease:Cubic.easeIn
+        });
+        tl1.to(fragment.canvas, 0.4,{alpha:0}, 0.6);
+
+        tl0.insert(tl1, delay);
+
+        fragments.push(fragment);
+        container.appendChild(fragment.canvas);
+    }
+
+    container.removeChild(image);
+    image.removeEventListener('click', imageClickHandler);
+}
+
+function shatterCompleteHandler() {
+    // add pooling?
+    fragments.forEach(function(f) {
+        container.removeChild(f.canvas);
+    });
+    fragments.length = 0;
+    vertices.length = 0;
+    indices.length = 0;
+
+    placeImage();
+}
+
+//////////////
+// MATH UTILS
+//////////////
+
+function randomRange(min, max) {
+    return min + (max - min) * Math.random();
+}
+
+function clamp(x, min, max) {
+    return x < min ? min : (x > max ? max : x);
+}
+
+function sign(x) {
+    return x < 0 ? -1 : 1;
+}
+
+//////////////
+// FRAGMENT
+//////////////
+
+Fragment = function(v0, v1, v2) {
+    this.v0 = v0;
+    this.v1 = v1;
+    this.v2 = v2;
+
+    this.computeBoundingBox();
+    this.computeCentroid();
+    this.createCanvas();
+    this.clip();
+};
+Fragment.prototype = {
+    computeBoundingBox:function() {
+        var xMin = Math.min(this.v0[0], this.v1[0], this.v2[0]),
+            xMax = Math.max(this.v0[0], this.v1[0], this.v2[0]),
+            yMin = Math.min(this.v0[1], this.v1[1], this.v2[1]),
+            yMax = Math.max(this.v0[1], this.v1[1], this.v2[1]);
+
+        this.box ={
+            x:xMin,
+            y:yMin,
+            w:xMax - xMin,
+            h:yMax - yMin
+        };
+    },
+    computeCentroid:function() {
+        var x = (this.v0[0] + this.v1[0] + this.v2[0]) / 3,
+            y = (this.v0[1] + this.v1[1] + this.v2[1]) / 3;
+
+        this.centroid = [x, y];
+    },
+    createCanvas:function() {
+        this.canvas = document.createElement('canvas');
+        this.canvas.width = this.box.w;
+        this.canvas.height = this.box.h;
+        this.canvas.style.width = this.box.w + 'px';
+        this.canvas.style.height = this.box.h + 'px';
+        this.canvas.style.left = this.box.x + 'px';
+        this.canvas.style.top = this.box.y + 'px';
+        this.ctx = this.canvas.getContext('2d');
+    },
+    clip:function() {
+        this.ctx.translate(-this.box.x, -this.box.y);
+        this.ctx.beginPath();
+        this.ctx.moveTo(this.v0[0], this.v0[1]);
+        this.ctx.lineTo(this.v1[0], this.v1[1]);
+        this.ctx.lineTo(this.v2[0], this.v2[1]);
+        this.ctx.closePath();
+        this.ctx.clip();
+        this.ctx.drawImage(image, 0, 0);
+    }
+};
 </script>
 
 </html>

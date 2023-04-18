@@ -352,7 +352,7 @@
         .services .title::after,
         .teams .title::after {
             background: #111;
-            content: "what i provide";
+            content: "what we provide";
         }
 
         .services .serv-content .card {
@@ -907,29 +907,29 @@
     <!-- services section start -->
     <section class="services" id="services">
         <div class="max-width">
-            <h2 class="title">My services</h2>
+            <h2 class="title">Whole System</h2>
             <div class="serv-content">
                 <div class="card">
                     <div class="box">
                         <i class="fas fa-paint-brush"></i>
                         <div class="text">Web Design</div>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.
+                        <p>Web Design using HTML CSS Javascript as Core Language to make Dynamic Website
                         </p>
                     </div>
                 </div>
                 <div class="card">
                     <div class="box">
                         <i class="fas fa-chart-line"></i>
-                        <div class="text">Advertising</div>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.
+                        <div class="text">App Design</div>
+                        <p>Using Flutter, Dart as Frontend Language to integrate web system with application
                         </p>
                     </div>
                 </div>
                 <div class="card">
                     <div class="box">
                         <i class="fas fa-code"></i>
-                        <div class="text">Apps Design</div>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.
+                        <div class="text">Backend Management</div>
+                        <p>Using Laravel, PHP and servers for supporting material for whole ecosystem
                         </p>
                     </div>
                 </div>

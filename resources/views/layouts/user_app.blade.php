@@ -66,12 +66,12 @@
         
 
         .card1 {
-            background: url("https://scontent.fbhr1-1.fna.fbcdn.net/v/t39.30808-6/320100310_3298297927051558_5274726394301864290_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=HnNHyDqJ_ywAX-hzcbY&_nc_ht=scontent.fbhr1-1.fna&oh=00_AfDAYB86HjK8zV4qbkmShhIA_L9ku4Dvf45eekc3ICluGg&oe=64423DF9") center center no-repeat;
+            background: url("https://scontent.fbhr1-1.fna.fbcdn.net/v/t39.30808-6/320100310_3298297927051558_5274726394301864290_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=9q41fyWc-aEAX-Nnmgw&_nc_ht=scontent.fbhr1-1.fna&oh=00_AfAl-6oXvC_UTA73Gv-Ni4zUGMar9gJBiOLioDDzMqFEhw&oe=64482CB9") center center no-repeat;
             background-size: 400px;
         }
 
         .card1:hover {
-            background: url("https://scontent.fbhr1-1.fna.fbcdn.net/v/t39.30808-6/255334282_10159571383194812_6165254877224171361_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=0debeb&_nc_ohc=zYTF_cuYDM8AX8FJ5rZ&_nc_ht=scontent.fbhr1-1.fna&oh=00_AfAzWUEo7Z8Cinrfh2NDHskK9AkB3G52-6zvq1DbZXymlA&oe=644259EA") left center no-repeat;
+            background: url("https://scontent.fbhr1-1.fna.fbcdn.net/v/t39.30808-6/282758790_10159903741174812_3069308900031356904_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=174925&_nc_ohc=lTbSzNPSoN0AX_IyqXd&_nc_ht=scontent.fbhr1-1.fna&oh=00_AfB2O4wWUPl6wdKrok_eBLNU1GCHOkKmp5QXWZu7K6QK3w&oe=64493A2A") left center no-repeat;
             background-size: 400px;
         }
 
@@ -84,12 +84,12 @@
         }
 
         .card2 {
-            background: url("https://scontent.fbhr1-1.fna.fbcdn.net/v/t39.30808-6/305170934_2256291407871184_5690169524602239929_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=CrhJ9o7Q2s8AX_1y9-8&_nc_ht=scontent.fbhr1-1.fna&oh=00_AfCjfArXvlqkNjxDrQk9pBA-iB1lshEiAOI3qJa-zjRQKQ&oe=644251F8") center center no-repeat;
+            background: url("https://scontent.fbhr1-1.fna.fbcdn.net/v/t39.30808-6/305170934_2256291407871184_5690169524602239929_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=TKqTrsn-4c8AX8YjoOR&_nc_ht=scontent.fbhr1-1.fna&oh=00_AfDdWrZRcntOlM6_Xt019xHLcjpfDzTd9rggQ_7CwIi37A&oe=644840B8") center center no-repeat;
             background-size: 400px;
         }
 
         .card2:hover {
-            background: url("https://scontent.fbhr1-1.fna.fbcdn.net/v/t39.30808-6/245672050_4206171089512478_7841162018176852698_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=ad2b24&_nc_ohc=janlplXsXeMAX9FfuT9&_nc_ht=scontent.fbhr1-1.fna&oh=00_AfD19tObnQMKVHxj6B8LsGLUqb6DPIQL0jv-V5j22_qgkA&oe=644361FE") left center no-repeat;
+            background: url("https://scontent.fbhr1-1.fna.fbcdn.net/v/t39.30808-6/245802958_10223675501227663_3953605692121890725_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=IQQC_RvBnMcAX_98gu1&_nc_ht=scontent.fbhr1-1.fna&oh=00_AfDeIPwrA1GjtJonN-v8H8Ot9uL8KS6Gu0cJbia8cO1YoA&oe=64494494") left center no-repeat;
             background-size: 380px;
         }
 
@@ -124,7 +124,7 @@
        
         .card3 {
           border-radius: 18px;
-            background: url("https://scontent.fbhr1-1.fna.fbcdn.net/v/t39.30808-6/278295201_5059889757427277_8339642480611398392_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=dq9JzFmIUxwAX_Ny3m2&_nc_ht=scontent.fbhr1-1.fna&oh=00_AfD-_m4wRuPhLhKEi1pPQqmryu3MC3VVYcorWZeKcX0eCA&oe=644275ED");
+            background: url("https://scontent.fbhr1-1.fna.fbcdn.net/v/t39.30808-6/278295201_5059889757427277_8339642480611398392_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=O4f-IeInpCsAX_EEbOI&_nc_ht=scontent.fbhr1-1.fna&oh=00_AfAPogpRCz5RmNvaXOpSbjtXYMe-UKfTdafyjuKgSm5GTg&oe=644864AD");
             background-size: 380px;
         }
         .card3:hover {
@@ -142,13 +142,13 @@
             opacity: 1;
         }
 
-        .card4 {
-            background: url("https://scontent.fbhr1-1.fna.fbcdn.net/v/t1.15752-9/338392000_957528001907853_8940535973547484050_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=ae9488&_nc_ohc=4ywJ3DqQ6o0AX9hU_mq&_nc_ht=scontent.fbhr1-1.fna&oh=03_AdSNl64mscjAkH43iGSApMUDMrblun6sMH2v5HvsxfOrpw&oe=6464FEE1") center center no-repeat;
+        .card4:hover {
+            background: url("https://scontent.fbhr1-1.fna.fbcdn.net/v/t39.30808-6/341089978_5962574850526436_4793749132360712858_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=_fKvBVPB3FkAX956_cv&_nc_ht=scontent.fbhr1-1.fna&oh=00_AfDXjNBmsQ9G7IfGpig7IuYjs3AjLmitP7xMi3ESg2atjA&oe=6447CACC") center center no-repeat;
             background-size: 400px;
         }
 
-        .card4:hover {
-            background: url("https://scontent.fbhr1-1.fna.fbcdn.net/v/t39.30808-6/339985615_764591731870031_1282297422061155968_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=D16r8l-_HOcAX-cZGE3&_nc_ht=scontent.fbhr1-1.fna&oh=00_AfAh9S_kGo2kgSsRc3sBpvdgoGVVhbKWq9Iow1B7hkNHTg&oe=6442D68A") left center no-repeat;
+        .card4 {
+            background: url("https://scontent.fbhr1-1.fna.fbcdn.net/v/t39.30808-6/339985615_764591731870031_1282297422061155968_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=SOx6_M9ZgUMAX9tLkq3&_nc_ht=scontent.fbhr1-1.fna&oh=00_AfBcIw9nU3EEZVuPbmOANmn3uIuDWwCkTFxztrrjkhF5wA&oe=6448C54A") left center no-repeat;
             background-size: 400px;
         }
 
@@ -161,7 +161,7 @@
         }
 
         .card5 {
-            background: url("https://scontent.fbhr1-1.fna.fbcdn.net/v/t39.30808-6/277348033_3032921246958557_5772300022218392030_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=B42Ad7WP5dAAX_bPCNs&_nc_ht=scontent.fbhr1-1.fna&oh=00_AfD0vJFjnBZPpk2_vqYqigzSB-Fh0IYe6k85kNGLNG9cVQ&oe=6442CDA5") center center no-repeat;
+            background: url("https://scontent.fbhr1-1.fna.fbcdn.net/v/t39.30808-6/277348033_3032921246958557_5772300022218392030_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=9TWZWV9G7aIAX89wt53&_nc_ht=scontent.fbhr1-1.fna&oh=00_AfAmJXpsOo4UXL6zlXjuVuesep206FkebjW77JoyM-ZXOQ&oe=6448BC65") center center no-repeat;
             background-size: 400px;
         }
 
@@ -284,8 +284,8 @@
         }
 
         .card8:hover {
-            background: url("https://scontent.fbhr1-1.fna.fbcdn.net/v/t39.30808-6/317985887_2372588986248450_8630182135619429240_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=KC1ngNUjNGAAX8UeXeb&_nc_ht=scontent.fbhr1-1.fna&oh=00_AfDRxWHSwykaY36kwHXx6_RelG4RqaCr3cIm--zHxH8G8A&oe=644340D2") left center no-repeat;
-            background-size: 380px;
+            background: url("https://scontent.fbhr1-1.fna.fbcdn.net/v/t1.6435-9/91704389_1554767171363973_5124059287374528512_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=e3f864&_nc_ohc=fsoGNqUi5igAX81vZls&_nc_ht=scontent.fbhr1-1.fna&oh=00_AfDMZ_xLIL_VxPMAHuyr2jU4LYFuXDnXbRS8SvC_TkOOQw&oe=646B4A82") left center no-repeat;
+            background-size: 800px;
         }
 
         .card8:hover h2 {

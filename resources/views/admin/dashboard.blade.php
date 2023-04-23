@@ -22,7 +22,6 @@
 
 
 <!DOCTYPE html>
-<!-- Created By CodingNepal -->
 <html lang="en">
 
 <head>
@@ -229,7 +228,7 @@
         /* home section styling */
         .home {
             display: flex;
-            background: url("https://scontent.fbhr1-1.fna.fbcdn.net/v/t39.30808-6/338995687_205492052117787_3490234844112854863_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=BXdqfbP0OB8AX9T1Yqz&_nc_ht=scontent.fbhr1-1.fna&oh=00_AfBbyFXRJFSULveYNWlxLF-fIQ97_DuAhqVkaEQ6YhVLzg&oe=643EECF0") no-repeat center;
+            background: url("https://imgs.search.brave.com/qbOZX9n7H1C6Nvb-KCmyCdtT_aypTkHlvNlknYDIx64/rs:fit:1200:1080:1/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC93cDI1MDgz/NTcuanBn") no-repeat center;
             height: 100vh;
             color: #fff;
             min-height: 500px;

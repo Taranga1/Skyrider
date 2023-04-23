@@ -35,7 +35,7 @@
         flex: 1;
         background: linear-gradient(to right, #f50629 0%, #fd9d08 100%);
         transition: 1s;
-        background-image: url(https://imgs.search.brave.com/kdSRWVnvwyGjssBvn1ww8HdwOq4WbfL-DFB5_tHl6wY/rs:fit:1200:744:1/g:ce/aHR0cHM6Ly90aHVt/YnMuZHJlYW1zdGlt/ZS5jb20vYi9hZG1p/bi13b3JkLXdyaXR0/ZW4td29vZGVuLWJs/b2Nrcy13b29kZW4t/dGFibGUtY29uY2Vw/dC15b3VyLWRlc2ln/bi1hZG1pbi13b3Jk/LXdyaXR0ZW4td29v/ZGVuLWJsb2Nrcy13/b29kZW4tdGFibGUt/MjEwOTk0NDgzLmpw/Zw);
+        background-image: url(https://yt3.ggpht.com/XHo7T1OytisRrbcKE0phW5L0lGg3N1WqrvVqGJ9HQd-ZHJdhWn-eF7Q0AqzUvf2Ut6lBbJBzrzu7TA=s720-nd-v1-rwa);
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
@@ -176,7 +176,7 @@
 <div class="container">
     <div class="left-section">
         <div class="header">
-            <h1 class="animation a1">Welcome Back!</h1>
+            <h1 class="animation a1">Mr Admin 🙃!</h1>
             <h4 class="animation a2">Log in to enter dashboard.</h4>
         </div>
         <form action="{{ route('admin.login') }}" method="post">

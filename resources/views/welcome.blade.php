@@ -23,7 +23,15 @@
 
 </head>
 <style>
-    img{
+    img.stu2{
+        border-radius: 50%
+    }
+
+    img.stu1{
+        border-radius: 50%
+    }
+
+    img.stu3{
         border-radius: 50%
     }
 </style>
@@ -51,6 +59,7 @@
                         <!-- ***** Logo Start ***** -->
                         <a href="/" class="logo">
                             <h4>SKY&nbsp;<span>RIDER</span></h4>
+                            
                         </a>
                         <!-- ***** Logo End ***** -->
                         <!-- ***** Menu Start ***** -->
@@ -152,8 +161,8 @@
                                         <img src="assets/images/service-icon-01.png" alt="reporting">
                                     </div>
                                     <div class="right-text">
-                                        <h4>Managed Environment</h4>
-                                        <p>Promising Environment</p>
+                                        <h4>Best Environment</h4>
+                                        <p>Promising Environment </p>
                                     </div>
                                 </div>
                             </div>
@@ -174,8 +183,8 @@
                                         <img src="assets/images/service-icon-03.png" alt="">
                                     </div>
                                     <div class="right-text">
-                                        <h4>Wide Ranged Faculty</h4>
-                                        <p>Science, Humanity, Management, Arts....</p>
+                                        <h4>Wide Faculty</h4>
+                                        <p>Different Faculties .</p>
                                     </div>
                                 </div>
                             </div>
@@ -185,8 +194,8 @@
                                         <img src="assets/images/service-icon-04.png" alt="">
                                     </div>
                                     <div class="right-text">
-                                        <h4>Scholorships Oppourtunity</h4>
-                                        <p>For Sound Students we offer various Types of Scholorships</p>
+                                        <h4>Scholorships</h4>
+                                        <p>Various Scholorships .</p>
                                     </div>
                                 </div>
                             </div>
@@ -202,7 +211,7 @@
             <div class="row">
                 <div class="col-lg-6 align-self-center  wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.2s">
                     <div class="left-image">
-                        <img src="assets/images/sky2.png" alt="" height="490px" width="270px">
+                        <img src="https://media0.giphy.com/media/KxnrFsWmiMPIreMoES/giphy.gif?cid=ecf05e47yd1oynk4wa086zzhkvgy77eb6xmmnba0s3k1oqmr&ep=v1_stickers_search&rid=giphy.gif&ct=s" alt="" height="200px" width="270px">
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.2s">
@@ -253,7 +262,7 @@
             <div class="row">
                 <div class="col-lg-6 offset-lg-3">
                     <div class="section-heading  wow bounceIn" data-wow-duration="1s" data-wow-delay="0.2s">
-                        <h2>See What Our Organization <em>Offers</em> &amp; What We <span>Provide</span></h2>
+                        <h2>See What People say <em>about us</em> &amp; What We <span>Provide</span></h2>
                     </div>
                 </div>
             </div>
@@ -280,7 +289,7 @@
                                 <p>No Words to Describe about School .</p>
                             </div>
                             <div class="showed-content">
-                                <img src="https://i.redd.it/8fqzw8yxpkp11.jpg" alt="" height="100px" width="80px">
+                                <img class="stu3" src="https://i.redd.it/8fqzw8yxpkp11.jpg" alt="" height="100px" width="80px">
                             </div>
                         </div>
                     </a>
@@ -293,7 +302,7 @@
                                 <p>Best School ever growned in with beautiful environment</p>
                             </div>
                             <div class="showed-content">
-                                <img src="https://s.yimg.com/ny/api/res/1.2/uL6C1Jl3LgE5y822Puwwsw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTQ4MA--/https://s.yimg.com/uu/api/res/1.2/3ErQJs24BWEbSzVuNn.Krg--~B/aD0xMDk3O3c9MTQ2MzthcHBpZD15dGFjaHlvbg--/http://globalfinance.zenfs.com/en_us/Finance/US_AFTP_SILICONALLEY_H_LIVE/Google_rewarded_the_guy_who-cb914d79c7ae31dff0c551ddfb859b2c"
+                                <img class="stu2" src="https://s.yimg.com/ny/api/res/1.2/uL6C1Jl3LgE5y822Puwwsw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTQ4MA--/https://s.yimg.com/uu/api/res/1.2/3ErQJs24BWEbSzVuNn.Krg--~B/aD0xMDk3O3c9MTQ2MzthcHBpZD15dGFjaHlvbg--/http://globalfinance.zenfs.com/en_us/Finance/US_AFTP_SILICONALLEY_H_LIVE/Google_rewarded_the_guy_who-cb914d79c7ae31dff0c551ddfb859b2c"
                                     alt="" height="100px" width="80px">
                             </div>
                         </div>
@@ -307,7 +316,7 @@
                                 <p>It was where i was growned in with full support from teachers</p>
                             </div>
                             <div class="showed-content">
-                                <img src="https://i.pinimg.com/originals/1f/8f/88/1f8f88fd1dc3eb2aab83b71330777d04.jpg" alt="" height="100px" width="80px">
+                                <img class="stu1"src="https://i.pinimg.com/originals/1f/8f/88/1f8f88fd1dc3eb2aab83b71330777d04.jpg" alt="" height="100px" width="80px">
                             </div>
                         </div>
                     </a>
@@ -316,12 +325,12 @@
         </div>
     </div>
 
-    {{-- <div id="blog" class="our-blog section">
+    <div id="blog" class="our-blog section">
     <div class="container">
       <div class="row">
         <div class="col-lg-6 wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.25s">
           <div class="section-heading">
-            <h2>Check Out What Is <em>Trending</em> In Our Latest <span>News</span></h2>
+            <h2>Check Out What Is <em>Trending</em> In Our Latest <span>Activity</span></h2>
           </div>
         </div>
         <div class="col-lg-6 wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.25s">
@@ -330,19 +339,20 @@
           </div>
         </div>
       </div>
+      <br><br>
       <div class="row">
         <div class="col-lg-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.25s">
           <div class="left-image">
-            <a href="#"><img src="assets/images/big-blog-thumb.jpg" alt="Workspace Desktop"></a>
+            <a href="https://www.facebook.com/profile.php?id=100087074499186" target="_blank"><img src="https://th.bing.com/th/id/OIP.DOesT5N6JYuGf5igGRAErQHaER?pid=ImgDet&rs=1" alt="Workspace Desktop"></a>
             <div class="info">
               <div class="inner-content">
                 <ul>
                   <li><i class="fa fa-calendar"></i> 24 Mar 2021</li>
-                  <li><i class="fa fa-users"></i> TemplateMo</li>
+                  <li><i class="fa fa-users"></i> 5000 Students</li>
                   <li><i class="fa fa-folder"></i> Branding</li>
                 </ul>
-                <a href="#"><h4>SEO Agency &amp; Digital Marketing</h4></a>
-                <p>Lorem ipsum dolor sit amet, consectetur and sed doer ket eismod tempor incididunt ut labore et dolore magna...</p>
+                <a href="#"><h4>SkyRider School &amp; Where all Dream lie</h4></a>
+                <p>Beautiful Place for beautiful People</p>
                 <div class="main-blue-button">
                   <a href="#">Discover More</a>
                 </div>
@@ -356,31 +366,31 @@
               <li>
                 <div class="left-content align-self-center">
                   <span><i class="fa fa-calendar"></i> 18 Mar 2021</span>
-                  <a href="#"><h4>New Websites &amp; Backlinks</h4></a>
-                  <p>Lorem ipsum dolor sit amsecteturii and sed doer ket eismod...</p>
+                  <a href="#"><h4>Annual Sports Meet</h4></a>
+                  <p>Grow your Outer Skills and share everything with Us .</p>
                 </div>
                 <div class="right-image">
-                  <a href="#"><img src="assets/images/blog-thumb-01.jpg" alt=""></a>
+                  <a href="#"><img src="https://th.bing.com/th/id/R.874d29c90009f08ae4300570e0ff54f1?rik=8sWpZFtyn7leSQ&pid=ImgRaw&r=0" alt=""></a>
                 </div>
               </li>
               <li>
                 <div class="left-content align-self-center">
                   <span><i class="fa fa-calendar"></i> 14 Mar 2021</span>
-                  <a href="#"><h4>SEO Analysis &amp; Content Ideas</h4></a>
-                  <p>Lorem ipsum dolor sit amsecteturii and sed doer ket eismod...</p>
+                  <a href="#"><h4>Result Publication</h4></a>
+                  <p>Soon after the Examination Result shall be Published</p>
                 </div>
                 <div class="right-image">
-                  <a href="#"><img src="assets/images/blog-thumb-01.jpg" alt=""></a>
+                  <a href="#"><img src="https://www.theindianwire.com/wp-content/uploads/2019/06/results-2.jpg" alt=""></a>
                 </div>
               </li>
               <li>
                 <div class="left-content align-self-center">
                   <span><i class="fa fa-calendar"></i> 06 Mar 2021</span>
-                  <a href="#"><h4>SEO Tips &amp; Digital Marketing</h4></a>
-                  <p>Lorem ipsum dolor sit amsecteturii and sed doer ket eismod...</p>
+                  <a href="#"><h4>Updated Canteen</h4></a>
+                  <p>Stay Fit and Healthy with World Class Canteen Right Here .</p>
                 </div>
                 <div class="right-image">
-                  <a href="#"><img src="assets/images/blog-thumb-01.jpg" alt=""></a>
+                  <a href="#"><img src="https://www.stedwards.nsw.edu.au/wp-content/uploads/2016/10/Canteen.jpg" alt=""></a>
                 </div>
               </li>
             </ul>
@@ -388,7 +398,7 @@
         </div>
       </div>
     </div>
-  </div> --}}
+  </div>
 
     <div id="contact" class="contact-us section">
         <div class="container">
@@ -407,7 +417,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeInRight" data-wow-duration="0.5s" data-wow-delay="0.25s">
-                    <form id="contact" action="https://formsubmit.co/tarangabaral10@gmail.com" method="POST">
+                    <form id="contact" action="https://formsubmit.co/c8ba153f7848e94426ad291f071e2e0a" method="POST">
                         <div class="row">
                             <div class="col-lg-6">
                                 <fieldset>

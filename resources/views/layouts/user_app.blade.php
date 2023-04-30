@@ -20,7 +20,10 @@
 
 
 
-
+        .body_taranga_div{
+            width: 1%;
+            color: #000;
+        }
 
         .container {
             height: 100vh;
@@ -66,12 +69,12 @@
         
 
         .card1 {
-            background: url("https://scontent.fbhr1-1.fna.fbcdn.net/v/t39.30808-6/320100310_3298297927051558_5274726394301864290_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=9q41fyWc-aEAX-Nnmgw&_nc_ht=scontent.fbhr1-1.fna&oh=00_AfAl-6oXvC_UTA73Gv-Ni4zUGMar9gJBiOLioDDzMqFEhw&oe=64482CB9") center center no-repeat;
+            background: url("https://scontent.fbhr1-1.fna.fbcdn.net/v/t39.30808-6/320100310_3298297927051558_5274726394301864290_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=cGcK0GHds0kAX-Jbz7f&_nc_ht=scontent.fbhr1-1.fna&oh=00_AfAo1iVKP5mtQHA9JO2UrsTJhPV8swXoJG6tcL05W3I7Ag&oe=644E1B79") center center no-repeat;
             background-size: 400px;
         }
 
         .card1:hover {
-            background: url("https://scontent.fbhr1-1.fna.fbcdn.net/v/t39.30808-6/282758790_10159903741174812_3069308900031356904_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=174925&_nc_ohc=lTbSzNPSoN0AX_IyqXd&_nc_ht=scontent.fbhr1-1.fna&oh=00_AfB2O4wWUPl6wdKrok_eBLNU1GCHOkKmp5QXWZu7K6QK3w&oe=64493A2A") left center no-repeat;
+            background: url("https://scontent.fbhr1-1.fna.fbcdn.net/v/t39.30808-6/282758790_10159903741174812_3069308900031356904_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=174925&_nc_ohc=sbZ8qIzJ8u0AX-JGj7h&_nc_ht=scontent.fbhr1-1.fna&oh=00_AfDvvHKlcmv_WlLf5jIxofaO1p2sgP5S6vulyGCWdM8noA&oe=644F28EA") left center no-repeat;
             background-size: 400px;
         }
 
@@ -84,12 +87,12 @@
         }
 
         .card2 {
-            background: url("https://scontent.fbhr1-1.fna.fbcdn.net/v/t39.30808-6/305170934_2256291407871184_5690169524602239929_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=TKqTrsn-4c8AX8YjoOR&_nc_ht=scontent.fbhr1-1.fna&oh=00_AfDdWrZRcntOlM6_Xt019xHLcjpfDzTd9rggQ_7CwIi37A&oe=644840B8") center center no-repeat;
+            background: url("https://scontent.fbhr1-1.fna.fbcdn.net/v/t39.30808-6/305170934_2256291407871184_5690169524602239929_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=4mN92hs50moAX9Ewh7q&_nc_ht=scontent.fbhr1-1.fna&oh=00_AfCxDck4S4UtpLeV-wm9jy9dlrSkYYWgWBo9lz8b7OFsCw&oe=644E2F78") center center no-repeat;
             background-size: 400px;
         }
 
         .card2:hover {
-            background: url("https://scontent.fbhr1-1.fna.fbcdn.net/v/t39.30808-6/245802958_10223675501227663_3953605692121890725_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=IQQC_RvBnMcAX_98gu1&_nc_ht=scontent.fbhr1-1.fna&oh=00_AfDeIPwrA1GjtJonN-v8H8Ot9uL8KS6Gu0cJbia8cO1YoA&oe=64494494") left center no-repeat;
+            background: url("https://scontent.fbhr1-1.fna.fbcdn.net/v/t39.30808-6/245672050_4206171089512478_7841162018176852698_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=ad2b24&_nc_ohc=EwbHT3P3n38AX8jiNgU&_nc_ht=scontent.fbhr1-1.fna&oh=00_AfBAKxHDO5v1Z69G6T5xwbbBXXICsjsRqsPpGB1sEAOgaA&oe=644D453E") left center no-repeat;
             background-size: 380px;
         }
 
@@ -124,15 +127,14 @@
        
         .card3 {
           border-radius: 18px;
-            background: url("https://scontent.fbhr1-1.fna.fbcdn.net/v/t39.30808-6/278295201_5059889757427277_8339642480611398392_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=O4f-IeInpCsAX_EEbOI&_nc_ht=scontent.fbhr1-1.fna&oh=00_AfAPogpRCz5RmNvaXOpSbjtXYMe-UKfTdafyjuKgSm5GTg&oe=644864AD");
-            background-size: 380px;
+            background: url("https://scontent.fbhr1-1.fna.fbcdn.net/v/t39.30808-6/278295201_5059889757427277_8339642480611398392_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=TVXb_Q1bGlkAX_vEIDI&_nc_ht=scontent.fbhr1-1.fna&oh=00_AfDGEAWSDD1VtHTFPiGovs6VytZW-TS669VvCAHzKSQXvw&oe=644E536D");
+            background-size: 379px;
         }
         .card3:hover {
             background: url("https://scontent.fbhr1-1.fna.fbcdn.net/v/t1.6435-9/153040464_1138639476572222_6419129191519426794_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=O33nDSsrNnQAX8CgVv3&_nc_ht=scontent.fbhr1-1.fna&oh=00_AfCDUmMbz75op1XQfIqn-f1MNcW4g6FLLcUM78ycc4g-2A&oe=6464E168") center center no-repeat;
             background-size: 400px;
         }
 
-        
 
         .card3:hover h2 {
             opacity: 1;
@@ -143,12 +145,12 @@
         }
 
         .card4:hover {
-            background: url("https://scontent.fbhr1-1.fna.fbcdn.net/v/t39.30808-6/341089978_5962574850526436_4793749132360712858_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=_fKvBVPB3FkAX956_cv&_nc_ht=scontent.fbhr1-1.fna&oh=00_AfDXjNBmsQ9G7IfGpig7IuYjs3AjLmitP7xMi3ESg2atjA&oe=6447CACC") center center no-repeat;
+            background: url("https://scontent.fbhr1-1.fna.fbcdn.net/v/t39.30808-6/340969999_215274977865556_1613417213006846391_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=G61TRs-7TvkAX--gQX-&_nc_ht=scontent.fbhr1-1.fna&oh=00_AfBTm1bfBsnySVqzoYb2OItxybGWEPQfGL8nAzvqOALEzg&oe=644E7B49") center center no-repeat;
             background-size: 400px;
         }
 
         .card4 {
-            background: url("https://scontent.fbhr1-1.fna.fbcdn.net/v/t39.30808-6/339985615_764591731870031_1282297422061155968_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=SOx6_M9ZgUMAX9tLkq3&_nc_ht=scontent.fbhr1-1.fna&oh=00_AfBcIw9nU3EEZVuPbmOANmn3uIuDWwCkTFxztrrjkhF5wA&oe=6448C54A") left center no-repeat;
+            background: url("https://scontent.fbhr1-1.fna.fbcdn.net/v/t39.30808-6/341032519_775208100513485_6842438373001166512_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=PaI_fYxmcS0AX-qCu1-&_nc_ht=scontent.fbhr1-1.fna&oh=00_AfDNery4opYcn3QqC_oarLb-Epv0wqeMWbnpp7Oap93MVA&oe=644D5947") left center no-repeat;
             background-size: 400px;
         }
 
@@ -161,7 +163,7 @@
         }
 
         .card5 {
-            background: url("https://scontent.fbhr1-1.fna.fbcdn.net/v/t39.30808-6/277348033_3032921246958557_5772300022218392030_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=9TWZWV9G7aIAX89wt53&_nc_ht=scontent.fbhr1-1.fna&oh=00_AfAmJXpsOo4UXL6zlXjuVuesep206FkebjW77JoyM-ZXOQ&oe=6448BC65") center center no-repeat;
+            background: url("https://scontent.fbhr1-1.fna.fbcdn.net/v/t39.30808-6/277348033_3032921246958557_5772300022218392030_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=UaacUjICwoEAX_wEZBC&_nc_ht=scontent.fbhr1-1.fna&oh=00_AfBUQaBTdk2X-KcphSBh7OnS9t2OJ2O7K9sdr_EJ1SfUAg&oe=644EAB25") center center no-repeat;
             background-size: 400px;
         }
 
@@ -295,6 +297,229 @@
         .card8:hover .fa {
             opacity: 1;
         }
+
+
+
+
+        .card9 {
+            background: url("https://scontent.fbhr1-1.fna.fbcdn.net/v/t39.30808-6/334802397_1923386234660604_1990792830499725123_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=rCOxezAfz2IAX-u2w3H&_nc_ht=scontent.fbhr1-1.fna&oh=00_AfCCyXifFo95tBOT0D-KC0EwyRfk7KagsLCt1aY1k1OdXw&oe=644E6661") center center no-repeat;
+            background-size: 300px;
+        }
+
+        .card9:hover {
+            background: url("https://scontent.fbhr1-1.fna.fbcdn.net/v/t39.30808-6/341263203_623492762954613_3709256299170556483_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=mIJwRVwlM7cAX82e8RA&_nc_ht=scontent.fbhr1-1.fna&oh=00_AfDdiVuA9IrmSxYrqA-5AcEbkXiPF7f0ee4Bo7V60OwW-Q&oe=644C9DB8") left center no-repeat;
+            background-size: 400px;
+        }
+
+        .card9:hover h2 {
+            opacity: 1;
+        }
+
+        .card9:hover .fa {
+            opacity: 1;
+        }
+
+
+
+
+        .card10 {
+            background: url("https://scontent.fbhr1-1.fna.fbcdn.net/v/t1.6435-9/93479176_2760343534083699_4219659794698469376_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=pLk__fuuYAkAX88sVy9&_nc_ht=scontent.fbhr1-1.fna&oh=00_AfA9pWqETYMSPJ6BiiwxWJqQ_dzWxhW7N2CX6O8H2AZK2g&oe=647012AE") center center no-repeat;
+            background-size: 350px;
+        }
+
+        .card10:hover {
+            background: url("https://scontent.fbhr1-1.fna.fbcdn.net/v/t1.18169-9/29511686_1561803777271020_5998498127183919746_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=qTpXA7_Y1oQAX8c1MrC&_nc_ht=scontent.fbhr1-1.fna&oh=00_AfA8_iNjLFtr5FZWJFHOWAUqPnEcqzBE6LQCNNT_x0VILA&oe=646FEEF9") left center no-repeat;
+            background-size: 505px;
+        }
+
+        .card10:hover h2 {
+            opacity: 1;
+        }
+
+        .card10:hover .fa {
+            opacity: 1;
+        }
+
+
+
+
+
+        .card11 {
+            background: url("https://scontent.fbhr1-1.fna.fbcdn.net/v/t39.30808-6/312393004_10166815304000582_4535558284794926757_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=174925&_nc_aid=0&_nc_ohc=MgA3EOaUPggAX9yWY4c&_nc_ht=scontent.fbhr1-1.fna&oh=00_AfAZvDLNuH3thY2ZDMGfOpl5DrkFsLRrOgcJx0cSwORnGg&oe=644D9939") center center no-repeat;
+            background-size: 400px;
+        }
+
+        .card11:hover {
+            background: url("https://scontent.fbhr1-1.fna.fbcdn.net/v/t39.30808-6/261215971_10165839256535582_5842020510883281714_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=174925&_nc_ohc=ragRzomEtLIAX-o43Ix&_nc_ht=scontent.fbhr1-1.fna&oh=00_AfBKZ9zDXc5vXWrf9Xbzy9AACFHQRusE-ycoWxMM7kuegw&oe=644DA06B") left center no-repeat;
+            background-size: 400px;
+        }
+
+        .card11:hover h2 {
+            opacity: 1;
+        }
+
+        .card11:hover .fa {
+            opacity: 1;
+        }
+
+
+
+
+
+
+
+
+
+        
+/* GG part from here */
+
+
+
+
+
+
+
+
+.card12 {
+            background: url("https://scontent.fbhr1-1.fna.fbcdn.net/v/t39.30808-6/328136693_1211040832859331_5416085175373745034_n.jpg?stp=cp6_dst-jpg&_nc_cat=100&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=kM9zDJbY5SoAX973X3H&_nc_ht=scontent.fbhr1-1.fna&oh=00_AfACRMPQFNqAqJstvZxNRU6GmzxOFx2aV3MvL--GaQr3gA&oe=644D47D2") center center no-repeat;
+            background-size: 400px;
+        }
+
+        .card12:hover {
+            background: url("https://scontent.fbhr1-1.fna.fbcdn.net/v/t39.30808-6/328916780_2316229551891590_3110728408556995009_n.jpg?stp=cp6_dst-jpg&_nc_cat=105&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=WxsMgpC8VTsAX_yK-Bf&_nc_ht=scontent.fbhr1-1.fna&oh=00_AfCf_D-nmKmzwERMoop4QYzjUWcT4o-zdWQQYE2QBiviwg&oe=644E7BB2") left center no-repeat;
+            background-size: 400px;
+        }
+
+        .card12:hover h2 {
+            opacity: 1;
+        }
+
+        .card12:hover .fa {
+            opacity: 1;
+        }
+
+
+
+
+
+
+
+
+
+
+
+        .card13 {
+            background: url("https://scontent.fbhr1-1.fna.fbcdn.net/v/t39.30808-6/341165006_250786687350080_4233278330328930204_n.jpg?stp=cp6_dst-jpg&_nc_cat=102&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=7KS_L_VO1S0AX8oCAm5&_nc_ht=scontent.fbhr1-1.fna&oh=00_AfCgiLNcjKN_Ws1PfjiAvggpVYk3KoLmPUUy3b0-AmH-mw&oe=644D00FB") center center no-repeat;
+            background-size: 400px;
+        }
+
+        .card13:hover {
+            background: url("https://scontent.fbhr1-1.fna.fbcdn.net/v/t39.30808-6/340826270_1340289260035463_1090093663616637190_n.jpg?stp=cp6_dst-jpg&_nc_cat=110&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=elKCqfwa0xgAX-elyhB&_nc_oc=AQmL0bcDcAc4zZF3FyVzDLSPLDLDilh8bK-8RMw0BdeztH5GibtOmxqvXE9-_XvF6tE&_nc_ht=scontent.fbhr1-1.fna&oh=00_AfAyb2J-4CCDgswjaNS_4PhfMHo0kmBQQbYiPpxTe0Plfg&oe=644D8D85") left center no-repeat;
+            background-size: 289px;
+        }
+
+        .card13:hover h2 {
+            opacity: 1;
+        }
+
+        .card13:hover .fa {
+            opacity: 1;
+        }
+
+
+
+
+
+
+        .card14 {
+            background: url("https://scontent.fbhr1-1.fna.fbcdn.net/v/t31.18172-8/30073587_1492701550840288_3728761961845608269_o.jpg?_nc_cat=110&ccb=1-7&_nc_sid=19026a&_nc_ohc=8c9JMc3uqbUAX8rdDui&_nc_ht=scontent.fbhr1-1.fna&oh=00_AfBUMJTOuzgG2DvrdbFCSMXB8PV4S05O9AMsYzn36_TXFQ&oe=646FF999") center center no-repeat;
+            background-size: 400px;
+        }
+
+        .card14:hover {
+            background: url("https://scontent.fbhr1-1.fna.fbcdn.net/v/t31.18172-8/27164695_1420636541380123_9115967449523856783_o.jpg?_nc_cat=103&ccb=1-7&_nc_sid=174925&_nc_ohc=_6w4EKK3F0AAX9Y_YKP&_nc_ht=scontent.fbhr1-1.fna&oh=00_AfA7jhqGr87i3aoOCcrvhpb7fjwHufmX8uEtmTupyNRqFA&oe=64702372") left center no-repeat;
+            background-size: 400px;
+        }
+
+        .card14:hover h2 {
+            opacity: 1;
+        }
+
+        .card14:hover .fa {
+            opacity: 1;
+        }
+
+        .card15 {
+            background: url("https://scontent.fbhr1-1.fna.fbcdn.net/v/t1.6435-9/125443900_2733393343541872_1697242686392229290_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=3gCVRVBBmQMAX8yGtV7&_nc_ht=scontent.fbhr1-1.fna&oh=00_AfD-ZBYUXwnnJVteEF34EoSaUVdpbriP6q110STm6V_cyg&oe=6471F1BE") center center no-repeat;
+            background-size: 400px;
+        }
+
+        .card15:hover {
+            background: url("https://scontent.fbhr1-1.fna.fbcdn.net/v/t31.18172-8/1009594_1386836448197575_238133049_o.jpg?_nc_cat=102&ccb=1-7&_nc_sid=730e14&_nc_ohc=GPMxc_SkZPgAX8j78bK&_nc_ht=scontent.fbhr1-1.fna&oh=00_AfAK69DiDX0aYnRPYwAh-j0mLUFEvmZolZcS0IvUwKS-OA&oe=6471E883") left center no-repeat;
+            background-size: 510px;
+        }
+
+        .card15:hover h2 {
+            opacity: 1;
+        }
+
+        .card15:hover .fa {
+            opacity: 1;
+        }
+
+        .card16 {
+            background: url("https://scontent.fbhr1-1.fna.fbcdn.net/v/t39.30808-6/242087893_6080219015353160_2243720562951238166_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=bgAHCyNwODkAX-yugrC&_nc_ht=scontent.fbhr1-1.fna&oh=00_AfBpwvnxeHbzFCOgjWaqqXwUjMtYJftYl9dn2mZ6rcxWvw&oe=645065BB") center center no-repeat;
+            background-size: 400px;
+        }
+
+        .card16:hover {
+            background: url("https://scontent.fbhr1-1.fna.fbcdn.net/v/t1.6435-9/84552250_3477442378964074_7089184688480190464_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=2B9PeE8VPawAX8rO3kP&_nc_ht=scontent.fbhr1-1.fna&oh=00_AfAM3lACXNTSH654gaA-63SBDsB3EC5DDbW1osX4BkDgCg&oe=64720BC9") left center no-repeat;
+            background-size: 400px;
+        }
+
+        .card16:hover h2 {
+            opacity: 1;
+        }
+
+        .card16:hover .fa {
+            opacity: 1;
+        }
+
+        .card17 {
+            background: url("https://scontent.fbhr1-1.fna.fbcdn.net/v/t39.30808-6/317689614_10225775861934902_6477641235276164162_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=0Dp2plYLCf0AX9Uvka4&_nc_ht=scontent.fbhr1-1.fna&oh=00_AfD4j1n2fCQPPf72gVYu0Gy1_vfPi5xSD2zfdKURoo1dBQ&oe=644E8C1E") center center no-repeat;
+            background-size: 400px;
+        }
+
+        .card17:hover {
+            background: url("https://scontent.fbhr1-1.fna.fbcdn.net/v/t39.30808-6/276260119_10224284766658452_5876619431901030125_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=4KpUY2HIC5IAX-Mabit&_nc_ht=scontent.fbhr1-1.fna&oh=00_AfCB35d7HaM3IiRii7R3cEgnl3Zk1MKW_1HA6lWi2YnhGg&oe=644EC0CB") left center no-repeat;
+            background-size: 460px;
+        }
+
+        .card17:hover h2 {
+            opacity: 1;
+        }
+
+        .card17:hover .fa {
+            opacity: 1;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* GG part ended here */
+
+        
 
 
 
@@ -662,7 +887,7 @@
             <!-- Navbar -->
             <nav class="navbar navbar-expand-lg " color-on-scroll="500">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href=""> DASHBOARD </a>
+                    <a class="navbar-brand" href=""> Teacher's Info </a>
                     <button href="" class="navbar-toggler navbar-toggler-right" type="button"
                         data-toggle="collapse" aria-controls="navigation-index" aria-expanded="false"
                         aria-label="Toggle navigation">
@@ -686,7 +911,7 @@
             {{-- HTML BODY STARTS HERE --}}
 
 
-
+            
             <div class="container">
                 <div class="card card0">
                     <div class="border">
@@ -725,12 +950,89 @@
                     </div>
                 </div>
             </div>
+            <div class="container">
+                <div class="card card9">
+                    <div class="border">
+                        <h2>Keshav Pathak</h2>
+                        <div class="icons">
+                            <i class="fa fa-codepen" aria-hidden="true"></i>
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                            <i class="fa fa-dribbble" aria-hidden="true"></i>
+                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="card card10">
+                    <div class="border">
+                        <h2>Narayan Shrestha</h2>
+                        <div class="icons">
+                            <i class="fa fa-codepen" aria-hidden="true"></i>
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                            <i class="fa fa-dribbble" aria-hidden="true"></i>
+                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="card card11">
+                    <div class="border">
+                        <h2>Rabin Ghimire</h2>
+                        <div class="icons">
+                            <i class="fa fa-codepen" aria-hidden="true"></i>
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                            <i class="fa fa-dribbble" aria-hidden="true"></i>
+                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
 
 
+            <div class="container">
+                <div class="card card15">
+                    <div class="border">
+                        <h2>Sarad Adhikari</h2>
+                        <div class="icons">
+                            <i class="fa fa-codepen" aria-hidden="true"></i>
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                            <i class="fa fa-dribbble" aria-hidden="true"></i>
+                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="card card16">
+                    <div class="border">
+                        <h2>Teeka Mainali</h2>
+                        <div class="icons">
+                            <i class="fa fa-codepen" aria-hidden="true"></i>
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                            <i class="fa fa-dribbble" aria-hidden="true"></i>
+                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="card card17">
+                    <div class="border">
+                        <h2>Sujan Baral</h2>
+                        <div class="icons">
+                            <i class="fa fa-codepen" aria-hidden="true"></i>
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                            <i class="fa fa-dribbble" aria-hidden="true"></i>
+                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
 
 
+            
 
             <div class="container">
               <div class="card card3">
@@ -818,6 +1120,60 @@
         </div>
 
 
+
+
+        <div class="container">
+            <div class="card card12">
+                <div class="border">
+                    <h2>Govinda Ghimire</h2>
+                    <div class="icons">
+                        <i class="fa fa-codepen" aria-hidden="true"></i>
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                        <i class="fa fa-dribbble" aria-hidden="true"></i>
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="card card13">
+                <div class="border">
+                    <h2>Saraswati Timalsina</h2>
+                    <div class="icons">
+                        <i class="fa fa-codepen" aria-hidden="true"></i>
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                        <i class="fa fa-dribbble" aria-hidden="true"></i>
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="card card14">
+                <div class="border">
+                    <h2>Hari Lamichchhane</h2>
+                    <div class="icons">
+                        <i class="fa fa-codepen" aria-hidden="true"></i>
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                        <i class="fa fa-dribbble" aria-hidden="true"></i>
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+        
+
+
+            
 
 
 

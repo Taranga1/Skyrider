@@ -24,7 +24,7 @@
                     @foreach ($notices as $notice)
                         <tr>
                             <td>{{$notice->id}}</td>
-                            <td>{{$notice->title}}</td>
+                            <td><b>{{$notice->title}}<b></td>
                             <td>{{$notice->description}}</td>
                             <td>{{$notice->date}}</td>
                             <td><a href="{{ url('notice/'.$notice->id)}}" class="btn btn-success">Edit</a></td>

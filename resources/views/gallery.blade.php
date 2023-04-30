@@ -478,26 +478,10 @@
                 <div class="img-w"><img src="https://imgs.search.brave.com/u46kWaP9qmZ-5muindE6nrSck95fjYjGCIWDvP-2FuE/rs:fit:350:350:1/g:ce/aHR0cHM6Ly9za3ly/aWRlci5lZHUubnAv/c3RhdGljL2ltZy9s/b2cucG5n" alt="" /></div>
               </div>
 
-            
-
-
-
-            
-
             {{-- HTML ENDS HERE BODY PART --}}
-
-
-
-
-
-
-
-            
         </div>
     </div>
-
 </body>
-
 <script src="../home_assets/js/core/jquery.3.2.1.min.js" type="text/javascript"></script>
 <script src="../home_assets/js/core/popper.min.js" type="text/javascript"></script>
 <script src="../home_assets/js/core/bootstrap.min.js" type="text/javascript"></script>

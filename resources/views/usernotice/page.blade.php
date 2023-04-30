@@ -336,7 +336,7 @@
 
                 <tr>
                     <td> {{$notices->id}}</td>
-                    <td> {{$notices->title}}</td>
+                    <td> <b>{{$notices->title}}</b></td>
                     <td> {{$notices->description}} </td>
                     <td> {{$notices->date}} </td>
                     

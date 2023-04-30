@@ -53,7 +53,7 @@
     .container {
       position: relative;
       width: 350px;
-      height: 80%;
+      height: 650px;
       border-radius: 20px;
       padding: 40px;
       box-sizing: border-box;
@@ -430,7 +430,7 @@
         
             
             
-                        
+                        <br>
                         
                         <button type="submit" class="animation a6">Register</button>
                     </div>

@@ -20,488 +20,125 @@
 
 
 
-        .body_taranga_div{
-            width: 1%;
-            color: #000;
-        }
-
-        .container {
-            height: 100vh;
-            width: 49vw;
-            max-height: 100px;
-            max-width: 1280px;
-            min-height: 478px;
-            min-width: 1000px;
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-            margin: 0 auto;
-        }
-
-        .border {
-            height: 369px;
-            width: 290px;
-            background: transparent;
-            border-radius: 10px;
-            transition: border 1s;
-            position: relative;
-        }
-
-        .border:hover {
-            border: 1px solid #fff;
-        }
-
-        .card {
-            height: 379px;
-            width: 300px;
-            background: #808080;
-            border-radius: 10px;
-            transition: background 0.8s;
-            overflow: hidden;
-            background: #000;
-            box-shadow: 0 70px 63px -60px #000;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            position: relative;
-        }
-
-        
-
-        .card1 {
-            background: url("https://scontent.fbhr1-1.fna.fbcdn.net/v/t39.30808-6/320100310_3298297927051558_5274726394301864290_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=cGcK0GHds0kAX-Jbz7f&_nc_ht=scontent.fbhr1-1.fna&oh=00_AfAo1iVKP5mtQHA9JO2UrsTJhPV8swXoJG6tcL05W3I7Ag&oe=644E1B79") center center no-repeat;
-            background-size: 400px;
-        }
-
-        .card1:hover {
-            background: url("https://scontent.fbhr1-1.fna.fbcdn.net/v/t39.30808-6/282758790_10159903741174812_3069308900031356904_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=174925&_nc_ohc=sbZ8qIzJ8u0AX-JGj7h&_nc_ht=scontent.fbhr1-1.fna&oh=00_AfDvvHKlcmv_WlLf5jIxofaO1p2sgP5S6vulyGCWdM8noA&oe=644F28EA") left center no-repeat;
-            background-size: 400px;
-        }
-
-        .card1:hover h2 {
-            opacity: 1;
-        }
-
-        .card1:hover .fa {
-            opacity: 1;
-        }
-
-        .card2 {
-            background: url("https://scontent.fbhr1-1.fna.fbcdn.net/v/t39.30808-6/305170934_2256291407871184_5690169524602239929_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=4mN92hs50moAX9Ewh7q&_nc_ht=scontent.fbhr1-1.fna&oh=00_AfCxDck4S4UtpLeV-wm9jy9dlrSkYYWgWBo9lz8b7OFsCw&oe=644E2F78") center center no-repeat;
-            background-size: 400px;
-        }
-
-        .card2:hover {
-            background: url("https://scontent.fbhr1-1.fna.fbcdn.net/v/t39.30808-6/245672050_4206171089512478_7841162018176852698_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=ad2b24&_nc_ohc=EwbHT3P3n38AX8jiNgU&_nc_ht=scontent.fbhr1-1.fna&oh=00_AfBAKxHDO5v1Z69G6T5xwbbBXXICsjsRqsPpGB1sEAOgaA&oe=644D453E") left center no-repeat;
-            background-size: 380px;
-        }
-
-        .card2:hover h2 {
-            opacity: 1;
-        }
-
-        .card2:hover .fa {
-            opacity: 1;
-        }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-       
-        .card3 {
-          border-radius: 18px;
-            background: url("https://scontent.fbhr1-1.fna.fbcdn.net/v/t39.30808-6/278295201_5059889757427277_8339642480611398392_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=TVXb_Q1bGlkAX_vEIDI&_nc_ht=scontent.fbhr1-1.fna&oh=00_AfDGEAWSDD1VtHTFPiGovs6VytZW-TS669VvCAHzKSQXvw&oe=644E536D");
-            background-size: 379px;
-        }
-        .card3:hover {
-            background: url("https://scontent.fbhr1-1.fna.fbcdn.net/v/t1.6435-9/153040464_1138639476572222_6419129191519426794_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=O33nDSsrNnQAX8CgVv3&_nc_ht=scontent.fbhr1-1.fna&oh=00_AfCDUmMbz75op1XQfIqn-f1MNcW4g6FLLcUM78ycc4g-2A&oe=6464E168") center center no-repeat;
-            background-size: 400px;
-        }
-
-
-        .card3:hover h2 {
-            opacity: 1;
-        }
-
-        .card3:hover .fa {
-            opacity: 1;
-        }
-
-        .card4:hover {
-            background: url("https://scontent.fbhr1-1.fna.fbcdn.net/v/t39.30808-6/340969999_215274977865556_1613417213006846391_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=G61TRs-7TvkAX--gQX-&_nc_ht=scontent.fbhr1-1.fna&oh=00_AfBTm1bfBsnySVqzoYb2OItxybGWEPQfGL8nAzvqOALEzg&oe=644E7B49") center center no-repeat;
-            background-size: 400px;
-        }
-
-        .card4 {
-            background: url("https://scontent.fbhr1-1.fna.fbcdn.net/v/t39.30808-6/341032519_775208100513485_6842438373001166512_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=PaI_fYxmcS0AX-qCu1-&_nc_ht=scontent.fbhr1-1.fna&oh=00_AfDNery4opYcn3QqC_oarLb-Epv0wqeMWbnpp7Oap93MVA&oe=644D5947") left center no-repeat;
-            background-size: 400px;
-        }
-
-        .card4:hover h2 {
-            opacity: 1;
-        }
-
-        .card4:hover .fa {
-            opacity: 1;
-        }
-
-        .card5 {
-            background: url("https://scontent.fbhr1-1.fna.fbcdn.net/v/t39.30808-6/277348033_3032921246958557_5772300022218392030_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=UaacUjICwoEAX_wEZBC&_nc_ht=scontent.fbhr1-1.fna&oh=00_AfBUQaBTdk2X-KcphSBh7OnS9t2OJ2O7K9sdr_EJ1SfUAg&oe=644EAB25") center center no-repeat;
-            background-size: 400px;
-        }
-
-        .card5:hover {
-            background: url("https://scontent.fbhr1-1.fna.fbcdn.net/v/t1.18169-9/10422540_1538617206388976_491529646270937731_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=174925&_nc_ohc=Q3x-ZciteBkAX9LdJaZ&_nc_ht=scontent.fbhr1-1.fna&oh=00_AfBUc4CKO6CEyVCvSrgfqXDSvDdB-_uQrLm9cx0na-qtow&oe=6464FEC1") left center no-repeat;
-            background-size: 280px;
-        }
-
-        .card5:hover h2 {
-            opacity: 1;
-        }
-
-        .card5:hover .fa {
-            opacity: 1;
-        }
-
-
-
-
-
-
-        .card0 {
-            background: url("https://scontent.fbhr1-1.fna.fbcdn.net/v/t31.18172-8/22538988_1507630625985888_9190710994922876043_o.jpg?_nc_cat=106&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=2hs6J75n8I4AX8CXFin&_nc_ht=scontent.fbhr1-1.fna&oh=00_AfD-jpmcZ_EvKELNGxbMsa77aRXGDWLaJINPXNbDL9lD0g&oe=64655BE0") center center no-repeat;
-            background-size: 400px;
-        }
-
-        .card0:hover {
-            background: url("https://scontent.fbhr1-1.fna.fbcdn.net/v/t1.6435-9/38690999_1882784505094226_6010076367268347904_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=0Q5TagHolUgAX-BZKUO&_nc_ht=scontent.fbhr1-1.fna&oh=00_AfBF-sJFHY2kEfM-OA1YL1ugthYCyEtdxoU5LeTLTkcPpw&oe=646586C5") left center no-repeat;
-            background-size: 400px;
-        }
-
-        .card0:hover h2 {
-            opacity: 1;
-        }
-
-        .card0:hover .fa {
-            opacity: 1;
-        }
-
-
-
-
-
-
-
-
-        .card0 {
-            background: url("https://scontent.fbhr1-1.fna.fbcdn.net/v/t31.18172-8/22538988_1507630625985888_9190710994922876043_o.jpg?_nc_cat=106&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=2hs6J75n8I4AX8CXFin&_nc_ht=scontent.fbhr1-1.fna&oh=00_AfD-jpmcZ_EvKELNGxbMsa77aRXGDWLaJINPXNbDL9lD0g&oe=64655BE0") center center no-repeat;
-            background-size: 400px;
-        }
-
-        .card0:hover {
-            background: url("https://scontent.fbhr1-1.fna.fbcdn.net/v/t1.6435-9/38690999_1882784505094226_6010076367268347904_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=0Q5TagHolUgAX-BZKUO&_nc_ht=scontent.fbhr1-1.fna&oh=00_AfBF-sJFHY2kEfM-OA1YL1ugthYCyEtdxoU5LeTLTkcPpw&oe=646586C5") left center no-repeat;
-            background-size: 400px;
-        }
-
-        .card0:hover h2 {
-            opacity: 1;
-        }
-
-        .card0:hover .fa {
-            opacity: 1;
-        }
-
-
-
-
-
-
-
-        .card6 {
-            background: url("https://scontent.fbhr1-1.fna.fbcdn.net/v/t1.6435-9/96525009_262745601534777_848077516349374464_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=174925&_nc_ohc=rdr3aAsmvvAAX90UDhe&_nc_ht=scontent.fbhr1-1.fna&oh=00_AfCVVy--UeiCDnnzsTP6gRplj32adEz441GvDI44UPBnVw&oe=646563D4") center center no-repeat;
-            background-size: 400px;
-        }
-
-        .card6:hover {
-            background: url("https://scontent.fbhr1-1.fna.fbcdn.net/v/t1.6435-9/100104774_296506518412566_6394023542765125632_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=X77_OJG67X8AX8otus3&_nc_ht=scontent.fbhr1-1.fna&oh=00_AfC-IzANodWpIVhdZ4U2brMoFUbyaa-ZQoRxrMPe39_P7w&oe=64656E31") left center no-repeat;
-            background-size: 400px;
-        }
-
-        .card6:hover h2 {
-            opacity: 1;
-        }
-
-        .card6:hover .fa {
-            opacity: 1;
-        }
-
-
-
-
-
-
-        .card7 {
-            background: url("https://scontent.fbhr1-1.fna.fbcdn.net/v/t1.6435-9/77101316_10157890369027299_5115940300241502208_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=gu4RNx0NcawAX80mfwZ&_nc_ht=scontent.fbhr1-1.fna&oh=00_AfC1CfjldBGs89cV25H71mHUcM89hXCru-tJ9A5b_YMhMw&oe=64656BA3") center center no-repeat;
-            background-size: 300px;
-        }
-
-        .card7:hover {
-            background: url("https://scontent.fbhr1-1.fna.fbcdn.net/v/t1.18169-9/12802795_10153972554397299_6308610236692902266_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=174925&_nc_ohc=Ld0snNENWDQAX88JxYT&_nc_ht=scontent.fbhr1-1.fna&oh=00_AfCoEO6VA2iG9NG12ocCdFzUsDU0fxCaJSMZ3y_TD9vN1Q&oe=6465659B") left center no-repeat;
-            background-size: 380px;
-        }
-
-        .card7:hover h2 {
-            opacity: 1;
-        }
-
-        .card7:hover .fa {
-            opacity: 1;
-        }
-
-
-
-
-
-        
-        .card8 {
-            background: url("https://scontent.fbhr1-1.fna.fbcdn.net/v/t1.6435-9/134438625_3732207616836429_5098027327901450985_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=174925&_nc_ohc=ONf-NrSoP90AX9bfqkW&_nc_ht=scontent.fbhr1-1.fna&oh=00_AfBsksOOPv7MTX79n8Qlt81QtKtUQxsjjNjuU97-yoBNZQ&oe=6465807D") center center no-repeat;
-            background-size: 400px;
-        }
-
-        .card8:hover {
-            background: url("https://scontent.fbhr1-1.fna.fbcdn.net/v/t1.6435-9/91704389_1554767171363973_5124059287374528512_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=e3f864&_nc_ohc=fsoGNqUi5igAX81vZls&_nc_ht=scontent.fbhr1-1.fna&oh=00_AfDMZ_xLIL_VxPMAHuyr2jU4LYFuXDnXbRS8SvC_TkOOQw&oe=646B4A82") left center no-repeat;
-            background-size: 800px;
-        }
-
-        .card8:hover h2 {
-            opacity: 1;
-        }
-
-        .card8:hover .fa {
-            opacity: 1;
-        }
-
-
-
-
-        .card9 {
-            background: url("https://scontent.fbhr1-1.fna.fbcdn.net/v/t39.30808-6/334802397_1923386234660604_1990792830499725123_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=rCOxezAfz2IAX-u2w3H&_nc_ht=scontent.fbhr1-1.fna&oh=00_AfCCyXifFo95tBOT0D-KC0EwyRfk7KagsLCt1aY1k1OdXw&oe=644E6661") center center no-repeat;
-            background-size: 300px;
-        }
-
-        .card9:hover {
-            background: url("https://scontent.fbhr1-1.fna.fbcdn.net/v/t39.30808-6/341263203_623492762954613_3709256299170556483_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=mIJwRVwlM7cAX82e8RA&_nc_ht=scontent.fbhr1-1.fna&oh=00_AfDdiVuA9IrmSxYrqA-5AcEbkXiPF7f0ee4Bo7V60OwW-Q&oe=644C9DB8") left center no-repeat;
-            background-size: 400px;
-        }
-
-        .card9:hover h2 {
-            opacity: 1;
-        }
-
-        .card9:hover .fa {
-            opacity: 1;
-        }
-
-
-
-
-        .card10 {
-            background: url("https://scontent.fbhr1-1.fna.fbcdn.net/v/t1.6435-9/93479176_2760343534083699_4219659794698469376_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=pLk__fuuYAkAX88sVy9&_nc_ht=scontent.fbhr1-1.fna&oh=00_AfA9pWqETYMSPJ6BiiwxWJqQ_dzWxhW7N2CX6O8H2AZK2g&oe=647012AE") center center no-repeat;
-            background-size: 350px;
-        }
-
-        .card10:hover {
-            background: url("https://scontent.fbhr1-1.fna.fbcdn.net/v/t1.18169-9/29511686_1561803777271020_5998498127183919746_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=qTpXA7_Y1oQAX8c1MrC&_nc_ht=scontent.fbhr1-1.fna&oh=00_AfA8_iNjLFtr5FZWJFHOWAUqPnEcqzBE6LQCNNT_x0VILA&oe=646FEEF9") left center no-repeat;
-            background-size: 505px;
-        }
-
-        .card10:hover h2 {
-            opacity: 1;
-        }
-
-        .card10:hover .fa {
-            opacity: 1;
-        }
-
-
-
-
-
-        .card11 {
-            background: url("https://scontent.fbhr1-1.fna.fbcdn.net/v/t39.30808-6/312393004_10166815304000582_4535558284794926757_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=174925&_nc_aid=0&_nc_ohc=MgA3EOaUPggAX9yWY4c&_nc_ht=scontent.fbhr1-1.fna&oh=00_AfAZvDLNuH3thY2ZDMGfOpl5DrkFsLRrOgcJx0cSwORnGg&oe=644D9939") center center no-repeat;
-            background-size: 400px;
-        }
-
-        .card11:hover {
-            background: url("https://scontent.fbhr1-1.fna.fbcdn.net/v/t39.30808-6/261215971_10165839256535582_5842020510883281714_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=174925&_nc_ohc=ragRzomEtLIAX-o43Ix&_nc_ht=scontent.fbhr1-1.fna&oh=00_AfBKZ9zDXc5vXWrf9Xbzy9AACFHQRusE-ycoWxMM7kuegw&oe=644DA06B") left center no-repeat;
-            background-size: 400px;
-        }
-
-        .card11:hover h2 {
-            opacity: 1;
-        }
-
-        .card11:hover .fa {
-            opacity: 1;
-        }
-
-
-
-
-
-
-
-
-
-        
-/* GG part from here */
-
-
-
-
-
-
-
-
-.card12 {
-            background: url("https://scontent.fbhr1-1.fna.fbcdn.net/v/t39.30808-6/328136693_1211040832859331_5416085175373745034_n.jpg?stp=cp6_dst-jpg&_nc_cat=100&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=kM9zDJbY5SoAX973X3H&_nc_ht=scontent.fbhr1-1.fna&oh=00_AfACRMPQFNqAqJstvZxNRU6GmzxOFx2aV3MvL--GaQr3gA&oe=644D47D2") center center no-repeat;
-            background-size: 400px;
-        }
-
-        .card12:hover {
-            background: url("https://scontent.fbhr1-1.fna.fbcdn.net/v/t39.30808-6/328916780_2316229551891590_3110728408556995009_n.jpg?stp=cp6_dst-jpg&_nc_cat=105&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=WxsMgpC8VTsAX_yK-Bf&_nc_ht=scontent.fbhr1-1.fna&oh=00_AfCf_D-nmKmzwERMoop4QYzjUWcT4o-zdWQQYE2QBiviwg&oe=644E7BB2") left center no-repeat;
-            background-size: 400px;
-        }
-
-        .card12:hover h2 {
-            opacity: 1;
-        }
-
-        .card12:hover .fa {
-            opacity: 1;
-        }
-
-
-
-
-
-
-
-
-
-
-
-        .card13 {
-            background: url("https://scontent.fbhr1-1.fna.fbcdn.net/v/t39.30808-6/341165006_250786687350080_4233278330328930204_n.jpg?stp=cp6_dst-jpg&_nc_cat=102&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=7KS_L_VO1S0AX8oCAm5&_nc_ht=scontent.fbhr1-1.fna&oh=00_AfCgiLNcjKN_Ws1PfjiAvggpVYk3KoLmPUUy3b0-AmH-mw&oe=644D00FB") center center no-repeat;
-            background-size: 400px;
-        }
-
-        .card13:hover {
-            background: url("https://scontent.fbhr1-1.fna.fbcdn.net/v/t39.30808-6/340826270_1340289260035463_1090093663616637190_n.jpg?stp=cp6_dst-jpg&_nc_cat=110&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=elKCqfwa0xgAX-elyhB&_nc_oc=AQmL0bcDcAc4zZF3FyVzDLSPLDLDilh8bK-8RMw0BdeztH5GibtOmxqvXE9-_XvF6tE&_nc_ht=scontent.fbhr1-1.fna&oh=00_AfAyb2J-4CCDgswjaNS_4PhfMHo0kmBQQbYiPpxTe0Plfg&oe=644D8D85") left center no-repeat;
-            background-size: 289px;
-        }
-
-        .card13:hover h2 {
-            opacity: 1;
-        }
-
-        .card13:hover .fa {
-            opacity: 1;
-        }
-
-
-
-
-
-
-        .card14 {
-            background: url("https://scontent.fbhr1-1.fna.fbcdn.net/v/t31.18172-8/30073587_1492701550840288_3728761961845608269_o.jpg?_nc_cat=110&ccb=1-7&_nc_sid=19026a&_nc_ohc=8c9JMc3uqbUAX8rdDui&_nc_ht=scontent.fbhr1-1.fna&oh=00_AfBUMJTOuzgG2DvrdbFCSMXB8PV4S05O9AMsYzn36_TXFQ&oe=646FF999") center center no-repeat;
-            background-size: 400px;
-        }
-
-        .card14:hover {
-            background: url("https://scontent.fbhr1-1.fna.fbcdn.net/v/t31.18172-8/27164695_1420636541380123_9115967449523856783_o.jpg?_nc_cat=103&ccb=1-7&_nc_sid=174925&_nc_ohc=_6w4EKK3F0AAX9Y_YKP&_nc_ht=scontent.fbhr1-1.fna&oh=00_AfA7jhqGr87i3aoOCcrvhpb7fjwHufmX8uEtmTupyNRqFA&oe=64702372") left center no-repeat;
-            background-size: 400px;
-        }
-
-        .card14:hover h2 {
-            opacity: 1;
-        }
-
-        .card14:hover .fa {
-            opacity: 1;
-        }
-
-        .card15 {
-            background: url("https://scontent.fbhr1-1.fna.fbcdn.net/v/t1.6435-9/125443900_2733393343541872_1697242686392229290_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=3gCVRVBBmQMAX8yGtV7&_nc_ht=scontent.fbhr1-1.fna&oh=00_AfD-ZBYUXwnnJVteEF34EoSaUVdpbriP6q110STm6V_cyg&oe=6471F1BE") center center no-repeat;
-            background-size: 400px;
-        }
-
-        .card15:hover {
-            background: url("https://scontent.fbhr1-1.fna.fbcdn.net/v/t31.18172-8/1009594_1386836448197575_238133049_o.jpg?_nc_cat=102&ccb=1-7&_nc_sid=730e14&_nc_ohc=GPMxc_SkZPgAX8j78bK&_nc_ht=scontent.fbhr1-1.fna&oh=00_AfAK69DiDX0aYnRPYwAh-j0mLUFEvmZolZcS0IvUwKS-OA&oe=6471E883") left center no-repeat;
-            background-size: 510px;
-        }
-
-        .card15:hover h2 {
-            opacity: 1;
-        }
-
-        .card15:hover .fa {
-            opacity: 1;
-        }
-
-        .card16 {
-            background: url("https://scontent.fbhr1-1.fna.fbcdn.net/v/t39.30808-6/242087893_6080219015353160_2243720562951238166_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=bgAHCyNwODkAX-yugrC&_nc_ht=scontent.fbhr1-1.fna&oh=00_AfBpwvnxeHbzFCOgjWaqqXwUjMtYJftYl9dn2mZ6rcxWvw&oe=645065BB") center center no-repeat;
-            background-size: 400px;
-        }
-
-        .card16:hover {
-            background: url("https://scontent.fbhr1-1.fna.fbcdn.net/v/t1.6435-9/84552250_3477442378964074_7089184688480190464_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=2B9PeE8VPawAX8rO3kP&_nc_ht=scontent.fbhr1-1.fna&oh=00_AfAM3lACXNTSH654gaA-63SBDsB3EC5DDbW1osX4BkDgCg&oe=64720BC9") left center no-repeat;
-            background-size: 400px;
-        }
-
-        .card16:hover h2 {
-            opacity: 1;
-        }
-
-        .card16:hover .fa {
-            opacity: 1;
-        }
-
-        .card17 {
-            background: url("https://scontent.fbhr1-1.fna.fbcdn.net/v/t39.30808-6/317689614_10225775861934902_6477641235276164162_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=0Dp2plYLCf0AX9Uvka4&_nc_ht=scontent.fbhr1-1.fna&oh=00_AfD4j1n2fCQPPf72gVYu0Gy1_vfPi5xSD2zfdKURoo1dBQ&oe=644E8C1E") center center no-repeat;
-            background-size: 400px;
-        }
-
-        .card17:hover {
-            background: url("https://scontent.fbhr1-1.fna.fbcdn.net/v/t39.30808-6/276260119_10224284766658452_5876619431901030125_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=4KpUY2HIC5IAX-Mabit&_nc_ht=scontent.fbhr1-1.fna&oh=00_AfCB35d7HaM3IiRii7R3cEgnl3Zk1MKW_1HA6lWi2YnhGg&oe=644EC0CB") left center no-repeat;
-            background-size: 460px;
-        }
-
-        .card17:hover h2 {
-            opacity: 1;
-        }
-
-        .card17:hover .fa {
-            opacity: 1;
-        }
+        :root {
+  --surface-color: #fff;
+  --curve: 40;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+  background-color: #fef8f8;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin: 4rem 5vw;
+  padding: 0;
+  list-style-type: none;
+}
+
+.card {
+  position: relative;
+  display: block;
+  height: 100%;  
+  border-radius: calc(var(--curve) * 1px);
+  overflow: hidden;
+  text-decoration: none;
+}
+
+.card__image {      
+  width: 100%;
+  height: auto;
+}
+
+.card__overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;      
+  border-radius: calc(var(--curve) * 1px);    
+  background-color: var(--surface-color);      
+  transform: translateY(100%);
+  transition: .2s ease-in-out;
+}
+
+.card:hover .card__overlay {
+  transform: translateY(0);
+}
+
+.card__header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 2em;
+  padding: 2em;
+  border-radius: calc(var(--curve) * 1px) 0 0 0;    
+  background-color: var(--surface-color);
+  transform: translateY(-100%);
+  transition: .2s ease-in-out;
+}
+
+.card__arc {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  bottom: 100%;
+  right: 0;      
+  z-index: 1;
+}
+
+.card__arc path {
+  fill: var(--surface-color);
+  d: path("M 40 80 c 22 0 40 -22 40 -40 v 40 Z");
+}       
+
+.card:hover .card__header {
+  transform: translateY(0);
+}
+
+.card__thumb {
+  flex-shrink: 0;
+  width: 50px;
+  height: 50px;      
+  border-radius: 50%;      
+}
+
+.card__title {
+  font-size: 1em;
+  margin: 0 0 .3em;
+  color: #6A515E;
+}
+
+.card__tagline {
+  display: block;
+  margin: 1em 0;
+  font-family: "MockFlowFont";  
+  font-size: .8em; 
+  color: #D7BDCA;  
+}
+
+.card__status {
+  font-size: .8em;
+  color: #D7BDCA;
+}
+
+.card__description {
+  padding: 0 2em 2em;
+  margin: 0;
+  color: #D7BDCA;
+  font-family: "MockFlowFont";   
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}    
 
 
 
@@ -911,275 +548,124 @@
             {{-- HTML BODY STARTS HERE --}}
 
 
-            
-            <div class="container">
-                <div class="card card0">
-                    <div class="border">
-                        <h2>Madan Puri</h2>
-                        <div class="icons">
-                            <i class="fa fa-codepen" aria-hidden="true"></i>
-                            <i class="fa fa-instagram" aria-hidden="true"></i>
-                            <i class="fa fa-dribbble" aria-hidden="true"></i>
-                            <i class="fa fa-twitter" aria-hidden="true"></i>
-                            <i class="fa fa-facebook" aria-hidden="true"></i>
+            <ul class="cards">
+                <li>
+                  <a href="https://www.facebook.com/madan.puri.10" target="_blank" class="card">
+                    <img src="https://i.imgur.com/QI6aNqG.jpeg" class="card__image" alt="" />
+                    <div class="card__overlay">
+                      <div class="card__header">
+                        <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>                     
+                        <img class="card__thumb" src="https://i.imgur.com/LR5UEio.jpg" alt="" />
+                        <div class="card__header-text">
+                          <h3 class="card__title">Madan Puri</h3>            
+                          <span class="card__status">Principal</span>
                         </div>
-                    </div>
-                </div>
-                <div class="card card1">
-                    <div class="border">
-                        <h2>Eka Dev Adhikari</h2>
-                        <div class="icons">
-                            <i class="fa fa-codepen" aria-hidden="true"></i>
-                            <i class="fa fa-instagram" aria-hidden="true"></i>
-                            <i class="fa fa-dribbble" aria-hidden="true"></i>
-                            <i class="fa fa-twitter" aria-hidden="true"></i>
-                            <i class="fa fa-facebook" aria-hidden="true"></i>
-                        </div>
-                    </div>
-                </div>
-                <div class="card card2">
-                    <div class="border">
-                        <h2>Ganga Dhungana</h2>
-                        <div class="icons">
-                            <i class="fa fa-codepen" aria-hidden="true"></i>
-                            <i class="fa fa-instagram" aria-hidden="true"></i>
-                            <i class="fa fa-dribbble" aria-hidden="true"></i>
-                            <i class="fa fa-twitter" aria-hidden="true"></i>
-                            <i class="fa fa-facebook" aria-hidden="true"></i>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="card card9">
-                    <div class="border">
-                        <h2>Keshav Pathak</h2>
-                        <div class="icons">
-                            <i class="fa fa-codepen" aria-hidden="true"></i>
-                            <i class="fa fa-instagram" aria-hidden="true"></i>
-                            <i class="fa fa-dribbble" aria-hidden="true"></i>
-                            <i class="fa fa-twitter" aria-hidden="true"></i>
-                            <i class="fa fa-facebook" aria-hidden="true"></i>
-                        </div>
-                    </div>
-                </div>
-                <div class="card card10">
-                    <div class="border">
-                        <h2>Narayan Shrestha</h2>
-                        <div class="icons">
-                            <i class="fa fa-codepen" aria-hidden="true"></i>
-                            <i class="fa fa-instagram" aria-hidden="true"></i>
-                            <i class="fa fa-dribbble" aria-hidden="true"></i>
-                            <i class="fa fa-twitter" aria-hidden="true"></i>
-                            <i class="fa fa-facebook" aria-hidden="true"></i>
-                        </div>
-                    </div>
-                </div>
-                <div class="card card11">
-                    <div class="border">
-                        <h2>Rabin Ghimire</h2>
-                        <div class="icons">
-                            <i class="fa fa-codepen" aria-hidden="true"></i>
-                            <i class="fa fa-instagram" aria-hidden="true"></i>
-                            <i class="fa fa-dribbble" aria-hidden="true"></i>
-                            <i class="fa fa-twitter" aria-hidden="true"></i>
-                            <i class="fa fa-facebook" aria-hidden="true"></i>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-
-            <div class="container">
-                <div class="card card15">
-                    <div class="border">
-                        <h2>Sarad Adhikari</h2>
-                        <div class="icons">
-                            <i class="fa fa-codepen" aria-hidden="true"></i>
-                            <i class="fa fa-instagram" aria-hidden="true"></i>
-                            <i class="fa fa-dribbble" aria-hidden="true"></i>
-                            <i class="fa fa-twitter" aria-hidden="true"></i>
-                            <i class="fa fa-facebook" aria-hidden="true"></i>
-                        </div>
-                    </div>
-                </div>
-                <div class="card card16">
-                    <div class="border">
-                        <h2>Teeka Mainali</h2>
-                        <div class="icons">
-                            <i class="fa fa-codepen" aria-hidden="true"></i>
-                            <i class="fa fa-instagram" aria-hidden="true"></i>
-                            <i class="fa fa-dribbble" aria-hidden="true"></i>
-                            <i class="fa fa-twitter" aria-hidden="true"></i>
-                            <i class="fa fa-facebook" aria-hidden="true"></i>
-                        </div>
-                    </div>
-                </div>
-                <div class="card card17">
-                    <div class="border">
-                        <h2>Sujan Baral</h2>
-                        <div class="icons">
-                            <i class="fa fa-codepen" aria-hidden="true"></i>
-                            <i class="fa fa-instagram" aria-hidden="true"></i>
-                            <i class="fa fa-dribbble" aria-hidden="true"></i>
-                            <i class="fa fa-twitter" aria-hidden="true"></i>
-                            <i class="fa fa-facebook" aria-hidden="true"></i>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-
-            
-
-            <div class="container">
-              <div class="card card3">
-                  <div class="border">
-                      <h2>Ishwor Mahato</h2>
-                      <div class="icons">
-                          <i class="fa fa-codepen" aria-hidden="true"></i>
-                          <i class="fa fa-instagram" aria-hidden="true"></i>
-                          <i class="fa fa-dribbble" aria-hidden="true"></i>
-                          <i class="fa fa-twitter" aria-hidden="true"></i>
-                          <i class="fa fa-facebook" aria-hidden="true"></i>
                       </div>
-                  </div>
-              </div>
-              <div class="card card4">
-                  <div class="border">
-                      <h2>Santosh Sinkhada</h2>
-                      <div class="icons">
-                          <i class="fa fa-codepen" aria-hidden="true"></i>
-                          <i class="fa fa-instagram" aria-hidden="true"></i>
-                          <i class="fa fa-dribbble" aria-hidden="true"></i>
-                          <i class="fa fa-twitter" aria-hidden="true"></i>
-                          <i class="fa fa-facebook" aria-hidden="true"></i>
+                      <p class="card__description">Welcome Here All the dear Students </p>
+                    </div>
+                  </a>      
+                </li>
+                <li>
+
+
+                  <a href="https://www.facebook.com/durga.puri.3386" target="_blank" class="card">
+                    <img src="https://i.imgur.com/ZtaQp16.jpg" class="card__image" alt="" />
+                    <div class="card__overlay">        
+                      <div class="card__header">
+                        <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>                 
+                        <img class="card__thumb" src="https://i.imgur.com/guj8xWc.jpg" alt="" />
+                        <div class="card__header-text">
+                          <h3 class="card__title">Durga Puri</h3>
+                          <span class="card__status">Chair Person</span>
+                        </div>
                       </div>
-                  </div>
-              </div>
-              <div class="card card5">
-                  <div class="border">
-                      <h2>Sampurna Aryal</h2>
-                      <div class="icons">
-                          <i class="fa fa-codepen" aria-hidden="true"></i>
-                          <i class="fa fa-instagram" aria-hidden="true"></i>
-                          <i class="fa fa-dribbble" aria-hidden="true"></i>
-                          <i class="fa fa-twitter" aria-hidden="true"></i>
-                          <i class="fa fa-facebook" aria-hidden="true"></i>
+                      <p class="card__description">Welcome Here All the dear Students .</p>
+                    </div>
+                  </a>
+                </li>
+
+
+                <li>
+                    <a href="https://www.facebook.com/narayan.shrestha.549668"  target="_blank" class="card">
+                      <img src="https://i.imgur.com/HDGRASJ.jpg" class="card__image" alt="" />
+                      <div class="card__overlay">
+                        <div class="card__header">
+                          <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>                 
+                          <img class="card__thumb" src="https://i.imgur.com/BGCltZK.jpg" alt="" />
+                          <div class="card__header-text">
+                            <h3 class="card__title">Narayan Shrestha</h3>
+                            <span class="card__status">Vice Principal</span>
+                          </div>          
+                        </div>
+                        <p class="card__description">Welcome Dear Students .</p>
                       </div>
-                  </div>
-              </div>
-          </div>
+                    </a>
+                  </li> 
 
 
-
-
-
-
-
-
-          <div class="container">
-            <div class="card card6">
-                <div class="border">
-                    <h2>Sandesh Aryal</h2>
-                    <div class="icons">
-                        <i class="fa fa-codepen" aria-hidden="true"></i>
-                        <i class="fa fa-instagram" aria-hidden="true"></i>
-                        <i class="fa fa-dribbble" aria-hidden="true"></i>
-                        <i class="fa fa-twitter" aria-hidden="true"></i>
-                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                <li>
+                  <a href="https://www.facebook.com/selfish.prakash" target="_blank" class="card">
+                    <img src="https://i.imgur.com/y16J5jQ.jpg" class="card__image" alt="" />
+                    <div class="card__overlay">
+                      <div class="card__header">
+                        <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>                 
+                        <img class="card__thumb" src="https://i.imgur.com/hjrw2Y1.jpg" alt="" />
+                        <div class="card__header-text">
+                          <h3 class="card__title">Keshav Raj Pathak</h3>
+                          <span class="card__status">Vice Principal</span>
+                        </div>          
+                      </div>
+                      <p class="card__description">A Warm Welcome To You all .</p>
                     </div>
-                </div>
-            </div>
-            <div class="card card7">
-                <div class="border">
-                    <h2>Manoj Pokharel</h2>
-                    <div class="icons">
-                        <i class="fa fa-codepen" aria-hidden="true"></i>
-                        <i class="fa fa-instagram" aria-hidden="true"></i>
-                        <i class="fa fa-dribbble" aria-hidden="true"></i>
-                        <i class="fa fa-twitter" aria-hidden="true"></i>
-                        <i class="fa fa-facebook" aria-hidden="true"></i>
-                    </div>
-                </div>
-            </div>
-            <div class="card card8">
-                <div class="border">
-                    <h2>Prakash Gupta</h2>
-                    <div class="icons">
-                        <i class="fa fa-codepen" aria-hidden="true"></i>
-                        <i class="fa fa-instagram" aria-hidden="true"></i>
-                        <i class="fa fa-dribbble" aria-hidden="true"></i>
-                        <i class="fa fa-twitter" aria-hidden="true"></i>
-                        <i class="fa fa-facebook" aria-hidden="true"></i>
-                    </div>
-                </div>
-            </div>
-        </div>
+                  </a>
+                </li>   
 
-
-
-
-        <div class="container">
-            <div class="card card12">
-                <div class="border">
-                    <h2>Govinda Ghimire</h2>
-                    <div class="icons">
-                        <i class="fa fa-codepen" aria-hidden="true"></i>
-                        <i class="fa fa-instagram" aria-hidden="true"></i>
-                        <i class="fa fa-dribbble" aria-hidden="true"></i>
-                        <i class="fa fa-twitter" aria-hidden="true"></i>
-                        <i class="fa fa-facebook" aria-hidden="true"></i>
-                    </div>
-                </div>
-            </div>
-            <div class="card card13">
-                <div class="border">
-                    <h2>Saraswati Timalsina</h2>
-                    <div class="icons">
-                        <i class="fa fa-codepen" aria-hidden="true"></i>
-                        <i class="fa fa-instagram" aria-hidden="true"></i>
-                        <i class="fa fa-dribbble" aria-hidden="true"></i>
-                        <i class="fa fa-twitter" aria-hidden="true"></i>
-                        <i class="fa fa-facebook" aria-hidden="true"></i>
-                    </div>
-                </div>
-            </div>
-            <div class="card card14">
-                <div class="border">
-                    <h2>Hari Lamichchhane</h2>
-                    <div class="icons">
-                        <i class="fa fa-codepen" aria-hidden="true"></i>
-                        <i class="fa fa-instagram" aria-hidden="true"></i>
-                        <i class="fa fa-dribbble" aria-hidden="true"></i>
-                        <i class="fa fa-twitter" aria-hidden="true"></i>
-                        <i class="fa fa-facebook" aria-hidden="true"></i>
-                    </div>
-                </div>
-            </div>
-        </div>
+                <li>
+                    <a href="https://www.facebook.com/rabinjee" target="_blank" class="card">
+                      <img src="https://i.imgur.com/XBfCS6N.jpg" class="card__image" alt="" />
+                      <div class="card__overlay">
+                        <div class="card__header">
+                          <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>                 
+                          <img class="card__thumb" src="https://i.imgur.com/mZvh3IN.jpg" alt="" />
+                          <div class="card__header-text">
+                            <h3 class="card__title">Rabin Ghimire</h3>
+                            <span class="card__status">Head Of IT</span>
+                          </div>          
+                        </div>
+                        <p class="card__description">A Warm Welcome To You all .</p>
+                      </div>
+                    </a>
+                  </li>  
 
 
 
 
 
 
+                  <li>
+                    <a href="https://www.facebook.com/sharad.adhikari.5439" target="_blank" class="card">
+                      <img src="https://i.imgur.com/VU6qwWW.jpg" class="card__image" alt="" />
+                      <div class="card__overlay">
+                        <div class="card__header">
+                          <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>                 
+                          <img class="card__thumb" src="https://i.imgur.com/msbu5BI.jpg" alt="" />
+                          <div class="card__header-text">
+                            <h3 class="card__title">Sarad Raj Adhikari</h3>
+                            <span class="card__status">+2 Coordinator</span>
+                          </div>          
+                        </div>
+                        <p class="card__description">A Warm Welcome To You all .</p>
+                      </div>
+                    </a>
+                  </li>  
 
 
 
+                
+                
+              </ul>
 
-        
-
-
-            
-
-
-
-
-
-            {{-- HTML ENDS HERE BODY PART --}}
+             {{-- HTML ENDS HERE BODY PART --}}
 
 
 

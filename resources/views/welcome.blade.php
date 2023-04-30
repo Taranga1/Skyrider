@@ -268,7 +268,7 @@
             </div>
             <div class="row">
                 <div class="col-lg-3 col-sm-6">
-                    <a href="#">
+                    <a>
                         <div class="item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
                             <div class="hidden-content">
                                 <h4>Kamal Lamichchhane</h4>
@@ -280,9 +280,11 @@
                             </div>
                         </div>
                     </a>
+                    <br><br>
+
                 </div>
                 <div class="col-lg-3 col-sm-6">
-                    <a href="#">
+                    <a>
                         <div class="item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.4s">
                             <div class="hidden-content">
                                 <h4>Sandeep Khadka</h4>
@@ -293,9 +295,11 @@
                             </div>
                         </div>
                     </a>
+                    <br><br>
+
                 </div>
                 <div class="col-lg-3 col-sm-6">
-                    <a href="#">
+                    <a>
                         <div class="item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.5s">
                             <div class="hidden-content">
                                 <h4>Keshav Bhakta</h4>
@@ -307,9 +311,10 @@
                             </div>
                         </div>
                     </a>
+                    <br><br>
                 </div>
                 <div class="col-lg-3 col-sm-6">
-                    <a href="#">
+                    <a>
                         <div class="item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.6s">
                             <div class="hidden-content">
                                 <h4>Dharma Singh</h4>
@@ -320,6 +325,8 @@
                             </div>
                         </div>
                     </a>
+                    <br><br>
+
                 </div>
             </div>
         </div>
@@ -351,10 +358,10 @@
                   <li><i class="fa fa-users"></i> 5000 Students</li>
                   <li><i class="fa fa-folder"></i> Branding</li>
                 </ul>
-                <a href="#"><h4>SkyRider School &amp; Where all Dream lie</h4></a>
+                <a href="https://www.facebook.com/profile.php?id=100087074499186&sk=photos" target="_blank"><h4>SkyRider School &amp; Where all Dream lie</h4></a>
                 <p>Beautiful Place for beautiful People</p>
                 <div class="main-blue-button">
-                  <a href="#">Discover More</a>
+                  <a href="https://www.facebook.com/profile.php?id=100087074499186&sk=photos" target="_blank">Discover More</a>
                 </div>
               </div>
             </div>
@@ -366,7 +373,7 @@
               <li>
                 <div class="left-content align-self-center">
                   <span><i class="fa fa-calendar"></i> 18 Mar 2021</span>
-                  <a href="#"><h4>Annual Sports Meet</h4></a>
+                  <a href=""><h4>Annual Sports Meet</h4></a>
                   <p>Grow your Outer Skills and share everything with Us .</p>
                 </div>
                 <div class="right-image">
@@ -376,11 +383,11 @@
               <li>
                 <div class="left-content align-self-center">
                   <span><i class="fa fa-calendar"></i> 14 Mar 2021</span>
-                  <a href="#"><h4>Result Publication</h4></a>
+                  <a href="/home"><h4>Result Publication</h4></a>
                   <p>Soon after the Examination Result shall be Published</p>
                 </div>
                 <div class="right-image">
-                  <a href="#"><img src="https://www.theindianwire.com/wp-content/uploads/2019/06/results-2.jpg" alt=""></a>
+                  <a href="/home"><img src="https://www.theindianwire.com/wp-content/uploads/2019/06/results-2.jpg" alt=""></a>
                 </div>
               </li>
               <li>

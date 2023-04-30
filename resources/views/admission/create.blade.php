@@ -393,50 +393,50 @@
                             <h2 class="form-title">Admission Form</h2>
                             <div class="form-fields">
                                 <div class="form-group">
-                                    <input type="text" class="fname" name="fullname" placeholder="Full Name">
+                                    <input type="text" required class="fname" name="fullname" placeholder="Full Name">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="fname" name="fathername"  placeholder="Father's Name">
+                                    <input type="text" required class="fname" name="fathername"  placeholder="Father's Name">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="fname" name="mothername"  placeholder="Mother's Name">
+                                    <input type="text" required class="fname" name="mothername"  placeholder="Mother's Name">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="fname"  name="address1" placeholder="Address">
-                                </div>
-
-
-
-                                <div class="form-group">
-                                    <input type="text" class="lname"  name="nextclass" placeholder="Next Class">
-                                </div>
-                                <div class="form-group">
-                                    <input type="email" class="email" name="gmail"  placeholder="Gmail">
-                                </div>
-                                <div class="form-group">
-                                    <input type="number" class="phone" name="phone1"  placeholder="Phone 1">
-                                </div>
-
-                                <div class="form-group">
-                                    <input type="number" class="phone"  name="phone2" placeholder="Phone 2">
-                                </div>
-
-                                <div class="form-group">
-                                    <input type="text" class="phone" name="gpa"  placeholder="GPA">
+                                    <input type="text" required class="fname"  name="address1" placeholder="Address">
                                 </div>
 
 
 
-
-
                                 <div class="form-group">
-                                    <input type="date" class="phone" name="dob"  placeholder="DOB">
+                                    <input type="text" required class="lname"  name="nextclass" placeholder="Next Class">
                                 </div>
                                 <div class="form-group">
-                                    <textarea name="description"  placeholder="Add Your Description"></textarea>
+                                    <input type="email" required class="email" name="gmail"  placeholder="Gmail">
+                                </div>
+                                <div class="form-group">
+                                    <input type="number" required class="phone" name="phone1"  placeholder="Phone 1">
+                                </div>
+
+                                <div class="form-group">
+                                    <input type="number" required class="phone"  name="phone2" placeholder="Phone 2">
+                                </div>
+
+                                <div class="form-group">
+                                    <input type="text" required class="phone" name="gpa"  placeholder="GPA">
+                                </div>
+
+
+
+
+
+                                <div class="form-group">
+                                    <input type="date" required class="phone" name="dob"  placeholder="DOB">
+                                </div>
+                                <div class="form-group">
+                                    <textarea name="description"  required placeholder="Add Your Description"></textarea>
                                 </div>
                             </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<h6>     Your Profile</h6><br>
-                            <input type="file"  name="image" id="" accept="image/*" required id="image">
+                            <input type="file" name="image" id="" accept="image/*" required id="image" required>
                             
                             <br><br>
                             <input type="submit" value="Post Form" class="submit-button">
